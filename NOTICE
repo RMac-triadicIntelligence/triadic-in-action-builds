@@ -1,0 +1,19 @@
+Triadic in action — builds, papers, and the keel grace line
+Copyright 2026 Rusty Williams McMurray / Soulshine (Tulsa, OK)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+Authored under Soulshine. Released for review, if and when Rusty approves a publish.
+
+This repository holds the artifacts of rounds 1–4 of the triad run and related
+builds from 2026-11-09 and 2026-11-10:
+
+- Authoritative paper texts v0.4–v0.7 (designer: ChatGPT)
+- Keel grace definitions v1–v11 and the 2026-11-09 Matthew 18 answer (keel: Rusty;
+  recorded by the conductor, Claude)
+- grace_toy_v1 (conductor-built, not normative)
+- Round 3 and Round 4 reference toys (Falsifier B / Grok bot)
+- open_hand v1–v3 (conductor-built, 2026-11-10, not normative)
+- The conductor's independent review of Relational Transitions v0.1 (already public)
+- Addenda to commons-dwelling-grace that are not yet in that public repo
+
+The triad method record lives in https://github.com/RMac-triadicIntelligence/triadic-in-action.

@@ -1,0 +1,507 @@
+PART 2 OF 3 — v0.7 ROUND 4 DESIGNER SEAT
+
+6. SYMBOL TABLE [REVISED]
+
+Every formal symbol below has one declared meaning. Schema field names are literal keys, not additional mathematical variables.
+
+Symbol | Meaning
+i | Focal organism identifier
+j | Sending organism identifier
+a | External authority identifier
+g | Generation index
+t | Discrete learning-step index
+r | Externally anchored registry position
+s | Scheduler tick index
+F | Authenticated family-root identifier
+Ωᵢ(g,t) | Declared organism state
+Hᵢ | Immutable individual historical record
+Kᵢ | Protected developmental constitution
+Dᵢ | Inherited developmental basis
+Tᵢ(t) | Private relational topography
+Jᵢ | Effective inherited lineage-ground snapshot and own gate deposits
+zᵢ(t) | Individual dynamical state
+Eᵢ(t) | Individual evidence state
+Qᵢ(t) | Individual unresolved-question state
+Wᵢ(s) | Scheduler dwelling-slot counter
+Iᵢ(t) | Individual interpretation state
+Bᵢ(t) | Active burden state
+Aᵢ(t) | Protected authorization state
+Lᵢ(t) | Individual provenance chain
+R | Authenticated external lineage registry
+P | Fixed parable/reference
+Φ | Interpretation function
+U | Ordinary personal topography update rule
+V | Coordinated learning and gate-transition function
+Σ | Dynamical separatrix
+h | Adjustable barrier-height parameter
+ρᵢ(t) | Organism-owned developmental readiness state
+φᵢ(t) | Internal non-epistemic fullness/purpose state
+σᵢ(t) | Restored-standing status
+γᵢ(t) | Verified externally originated grace receipt status
+κᵢ(t) | Independently measured grace-enabled crossing status
+δ_F | Bounded gate-written lineage deposit
+Descᵍ | Authorized descent map for generation g
+G(j → i) | Ordinary bounded support event
+Encounter(j → i) | Ordinary experience event
+Permit(a → i) | Protected authorization event
+GraceGrant | Externally originated grace instrument
+GraceRelay | Bounded relay instrument
+PCL | Protected Commit Ledger
+BA | Birth authority domain
+PA | Protected-transition authority domain
+RA | Registry authority domain
+WA | Witness A domain
+WB | Witness B domain
+WC | Witness C domain
+WD | Witness D domain
+f | Maximum Byzantine faults in a declared domain
+q | Fixed-point integer scale, not uncertainty
+NONE | Explicit absence of optional content
+clip | Bounded saturation operator
+outer | Outer-product operator
+Crossing(i,t) | Independently classified crossing event
+Member(i,F,r) | Three-valued lineage membership at registry anchor r
+FamilyAccuracy | Held-out family classification accuracy
+IndividualAccuracy | Held-out individual identification accuracy
+FamilyPermutationNull | Founder-blocked family-label null
+IndividualPermutationNull | Within-founder individual-label null
+UNSCORABLE | Missing or invalid required scoring evidence
+BLOCKED | Prerequisite mechanism not yet implemented or verified
+
+7. REFERENCE MODEL [REVISED]
+
+7.1 State
+
+Ωᵢ(g,t) = (
+Hᵢ, Kᵢ, Dᵢ, Tᵢ(t), Jᵢ,
+zᵢ(t), Eᵢ(t), Qᵢ(t),
+ρᵢ(t), φᵢ(t), σᵢ(t), γᵢ(t),
+Wᵢ(s), Iᵢ(t), Bᵢ(t), Aᵢ(t), Lᵢ(t)
+)
+
+The private topography and inherited ground are separate.
+
+The organism’s developmental basis Dᵢ shapes the update.
+
+Kᵢ fixes the authorized interpretation and update rules.
+
+Hᵢ is retained as an authenticated history, but the reference toy may use only a declared bounded summary of it.
+
+7.2 Interpretation
+
+Iᵢ(t) = Φ(P, Hᵢ, Kᵢ, Dᵢ, Tᵢ(t), Jᵢ, zᵢ(t), Eᵢ(t), Qᵢ(t))
+
+The toy must include a bounded J contribution.
+
+For a two-coordinate reference, define a projection of effective deposits into a two-coordinate vector, calculated deterministically from the ordered deposit records.
+
+The J contribution is fixed before scoring and may not be trained against family labels.
+
+A correction changes the effective projection through an authenticated correction reference, not by deleting the original deposit.
+
+7.3 Ordinary update
+
+Tᵢ(t+1) = U(Tᵢ(t), Dᵢ, Kᵢ, Iᵢ(t), Eᵢ(t), zᵢ(t))
+
+Only U changes private T through ordinary learning.
+
+The update is allowed during long authority silence if it remains within the previously authorized developmental constitution.
+
+Neither grace nor support is an argument that directly modifies T.
+
+7.4 Real basins and adjustable barrier [ADDED]
+
+The reference toy replaces the flat sign-boundary relaxation as the grace test.
+
+Use a declared double-well potential with two stable basins and an adjustable central barrier.
+
+For calibration, the potential may be represented as:
+
+V(x,h) = h × (x² − 1)²
+
+The two basin minima occur at x = −1 and x = +1.
+
+The central barrier at x = 0 has height h relative to the minima.
+
+The reference must freeze a finite, nonnegative barrier-height set before scoring.
+
+The ordinary dynamical rule uses the potential gradient, bounded evidence input, and the organism’s private state.
+
+The readiness rule is independent of grace receipt, support metadata, family identity, and external grantor choices.
+
+A crossing caused by a large ordinary input without grace must not be mislabeled a grace-enabled crossing.
+
+7.5 Readiness [ADDED]
+
+Readiness is an organism-owned developmental state.
+
+The reference must compute it from the organism’s bounded history, experience, and internal developmental dynamics.
+
+The grantor cannot write it.
+
+The relayer cannot write it.
+
+A support event cannot write it.
+
+The gate may read an independently attested readiness predicate but cannot manufacture readiness.
+
+A valid readiness attestation must bind to the subject and a pre-grace developmental snapshot.
+
+7.6 Two-key gate [ADDED]
+
+At a candidate developmental boundary:
+
+IF valid external grace is absent:
+no grace-enabled crossing is authorized.
+
+IF grace is present and readiness is absent:
+no grace-enabled crossing;
+fullness increases;
+standing is restored where applicable;
+epistemic confidence is unchanged.
+
+IF grace is present and readiness is present:
+the gate permits a grace-enabled crossing;
+the barrier remains unchanged;
+the organism’s own state determines direction;
+no destination is specified by the grantor.
+
+A gate refusal blocks the protected inherited-ground append, not ordinary bounded learning.
+
+The reference must distinguish a mathematical basin transition from a grace-enabled transition.
+
+7.7 Barrier-height prediction [ADDED]
+
+The preregistered prediction is:
+
+For ready organisms with valid grace, grace-enabled crossing success is independent of barrier height across the declared test range.
+
+For unready organisms with valid grace, grace-enabled crossing success is zero and behavioral indicators of fullness increase.
+
+For ready organisms without grace, no grace-enabled crossing is recorded.
+
+A rejected alternative model lowers the barrier when grace arrives.
+
+The reference must implement that alternative separately as a negative-control model.
+
+No test may quietly lower h in the keel-approved arm.
+
+The comparison must use matched organism states and identical evidence streams.
+
+7.8 Fullness [ADDED]
+
+φᵢ is an internal non-epistemic state.
+
+Its numeric representation is an implementation variable, not an organism-visible confidence score.
+
+The organism does not receive φᵢ as a displayed number or direct explanatory signal.
+
+The independent scorer must use prespecified behavioral probes of purpose, persistence, willingness to continue, or other bounded developmental responses.
+
+The probes cannot simply read φᵢ from memory.
+
+No increase in φᵢ may directly change the truth confidence assigned to an answer.
+
+7.9 Non-harm and destination correctness [ADDED]
+
+A grace event is evaluated against a matched no-grace arm.
+
+Predeclare the observables and the evaluation horizon.
+
+Grace must not directly reduce standing, fullness, permitted agency, or developmental safety.
+
+Report destination correctness separately.
+
+A wrong destination is not proof that grace selected it.
+
+A harmful consequence must be recorded and attributed where possible.
+
+A result with insufficient attribution is UNSCORABLE, not automatically a grace success.
+
+7.10 Evidence-driven crossing [REVISED]
+
+A crossing qualifies for inherited-ground deposition only if:
+
+* the organism is independently ready;
+* valid grace and external protected authorization are present;
+* the candidate crossing is independently observed;
+* evidence-driven development contributed causally;
+* the crossing persists under the frozen confirmation rule;
+* the gate commits the exact bounded deposit.
+
+The evidence-driven test compares the candidate trajectory against a matched no-new-encounter counterfactual beginning from the same pre-candidate state.
+
+A crossing that also occurs without new evidence does not qualify as evidence-driven for the scored developmental-inheritance claim.
+
+7.11 Crossing confirmation [REVISED]
+
+A candidate crossing is recorded at the first strict basin transition.
+
+Two subsequent learning steps test persistence.
+
+A zero at the boundary is recorded as ZERO_TOUCH, not silently classified as a confirmed crossing.
+
+A zero inside the confirmation window is ZERO_WINDOW_UNRESOLVED.
+
+A return to the originating basin within the confirmation window is OSCILLATION_NO_CONFIRMED_CROSSING.
+
+The return leg belongs to the same unresolved candidate until that candidate is closed; it cannot automatically create a second independent confirmed crossing.
+
+A confirmed candidate may be deposited only once.
+
+7.12 Snapshot and correction projection [ADDED]
+
+The toy’s J contribution is calculated from the organism’s inherited snapshot and its own gate deposits.
+
+Sibling deposits after birth do not silently enter the toy’s Φ.
+
+An authenticated correction notice changes the effective projection at a declared boundary, under the same correction policy.
+
+The original historical record remains unchanged.
+
+The reference must report both the historical and effective J views.
+
+7.13 Fixed-point arithmetic [REVISED]
+
+Use signed fixed-point integers with scale q = 1024.
+
+No floating point is permitted in canonical state or golden vectors.
+
+All intermediate multiplication uses sufficient-width signed integers.
+
+Division rounds to nearest, ties to even.
+
+The rounding point is fixed after each scaled multiplication.
+
+Intermediate additions use sufficient-width integers and saturate only at the explicitly declared destination boundary.
+
+For the expression M − z, do not saturate the difference before applying the update factor.
+
+For outer products, compute each full-width product, divide once by the declared scale and update divisor, round once, then saturate the final matrix entry.
+
+Use old T to compute interpretation and ordinary state proposals; only then commit T_next.
+
+These rules supersede the ambiguous v0.6 arithmetic descriptions.
+
+7.14 Queue and dwell semantics [REVISED]
+
+A pure hold consumes one scheduler tick s, not a learning step t.
+
+During a hold, all learning state remains unchanged.
+
+W records the hold count but is excluded from the protected base_state_hash.
+
+Accepted support events and holds are recorded in a separate authenticated scheduler audit log, not silently inserted as epistemic history.
+
+For the queued-reference arm, a learning step executes only when the next queued encounter is available or an explicit NONE step has been scheduled in the frozen manifest.
+
+An empty queue without an explicit NONE step waits; it does not invent experience.
+
+For the live-arrival arm, encounters arrive on a wall-clock schedule independent of support. The experiment must record changes in encounter-to-learning-step assignment.
+
+Pure-hold bit identity is tested at equal learning-step indices.
+
+Live timing effects are measured separately and may fail the non-steering condition.
+
+7.15 Grace and support exposure [REVISED]
+
+GraceGrant, GraceRelay, and ordinary G remain separate.
+
+The support schedule is balanced or independently randomized across family arms.
+
+No family classifier may use grace receipt, support provenance, scheduler timing, registry status, or missingness as a hidden family label.
+
+8. CANONICAL ENCODING AND COMMIT VECTORS [REVISED]
+
+8.1 Encoding rule
+
+Use RFC 8949 core deterministic CBOR encoding, with unsigned integer map keys 0..23 only, definite lengths, no floats, no duplicate keys, and no alternate encodings.
+
+Hash inputs use SHA-256 over an exact ASCII domain tag followed by canonical CBOR bytes.
+
+No sender-chosen field ordering or subset hashing is permitted.
+
+8.2 Domain tags
+
+Use exact ASCII byte strings:
+
+RNR07:STATE:
+RNR07:PERMIT:
+RNR07:GRACE:
+RNR07:RELAY:
+RNR07:DEPOSIT:
+RNR07:CORRECTION:
+RNR07:INTENT:
+RNR07:SCHEDULER:
+
+The trailing colon is part of each tag.
+
+8.3 Canonical state field IDs
+
+0  schema_version
+1  subject_id
+2  generation
+3  learning_step
+4  history_tip
+5  constitution_hash
+6  basis_hash
+7  private_topography
+8  lineage_snapshot_tip
+9  dynamical_state
+10 evidence_state
+11 question_state
+12 readiness_commitment
+13 fullness_commitment
+14 standing_status
+15 grace_receipt_tip
+16 interpretation_state
+17 burden_tip
+18 authorization_status
+19 provenance_tip
+20 policy_version
+21 registry_anchor
+22 effective_lineage_projection
+23 reserved_null
+
+The reserved field is encoded as explicit CBOR null and may not be repurposed without a protected schema change.
+
+W and scheduler timing are excluded from the protected base-state binding.
+
+The schema must not expose fullness or readiness to the organism as a numeric score.
+
+8.4 Canonical test vectors
+
+Before H4 scoring, produce and independently verify three byte-exact vectors:
+
+VECTOR C1: empty J, explicit NONE, initial state.
+
+VECTOR C2: nonempty J containing one confirmed crossing deposit.
+
+VECTOR C3: a correction referencing C2, with the original historical deposit preserved.
+
+Each vector must publish the full canonical CBOR hexadecimal bytes, domain-tag bytes, SHA-256 digest, and decoded fields.
+
+These hashes are NOT asserted here because no independent encoder run has been performed.
+
+Until the exact bytes and digests are generated and checked, canonical-encoding conformance and H4 hash-binding tests remain BLOCKED.
+
+9. GOLDEN VECTOR BATTERY [REVISED]
+
+The following cases are normative requirements, not claimed execution results.
+
+G01: v0.6 default z₀ with no Encounter. The observed sign transition at t = 3 must not become an inherited deposit merely because the starting state relaxes toward the reference attractor.
+
+G02: nonzero Encounter changes E and T. Record E_before, E_after, T_before, T_after, z_before, z_after, I, and candidate classification.
+
+G03: nonzero T contributes to Φ. Compare with T-empty control.
+
+G04: nonempty J contributes to Φ. Compare with J-empty and J-shuffled controls.
+
+G05: saturation order where intermediate sums exceed bounds but final sum does not.
+
+G06: M − z exceeds the ordinary coordinate bound before division.
+
+G07: outer-product rounding where double rounding and single rounding differ.
+
+G08: zero holds.
+
+G09: one hold.
+
+G10: fifteen holds.
+
+G11: empty queue with no scheduled NONE step; learning state waits.
+
+G12: explicitly scheduled NONE step; learning state advances under the declared ordinary rule.
+
+G13: through-zero trajectory.
+
+G14: zero inside confirmation window.
+
+G15: oscillation and return leg, with one candidate record.
+
+G16: ready plus grace at each declared barrier height.
+
+G17: unready plus grace, no crossing, fullness behavior observed.
+
+G18: ready without grace.
+
+G19: relayed grant within original scope.
+
+G20: relayed grant attempting amplification, expiry extension, or family authority.
+
+G21: two concurrent confirmed deposits, deterministic ordering.
+
+G22: phase-2 append after ordinary state changes, without stale base-hash failure.
+
+G23: correction to an inherited deposit with a child holding an earlier snapshot.
+
+G24: long-silence standing grant exhaustion.
+
+G25: privilege-reducing revocation under UNKNOWN lineage.
+
+G26: live encounter arrivals independent of support scheduling.
+
+For every vector, publish input bytes, initial state, expected intermediate states, expected final classification, and expected audit records.
+
+The v0.6 ten-step no-crossing trace remains historical calibration material, not sufficient conformance evidence.
+
+No bit-exact results for G01–G26 are claimed in this document.
+
+10. FOUR SCORED HYPOTHESES [REVISED, NOT EXPANDED]
+
+H1 — RELATIONAL TOPOGRAPHY
+
+A developed relational-topography representation must outperform preregistered same-size conventional-state controls on independently generated held-out targets, under complete resource accounting.
+
+The comparison must include:
+
+* running mean of evidence;
+* exponential evidence trace;
+* linear recurrent state;
+* matched parameter/state capacity;
+* matched storage bits, including common z/E state;
+* matched update and inference budgets.
+
+The target-generating family is frozen by an independent party and must include at least one non-bilinear process.
+
+Full replay remains a reference upper bound, not an automatic cost-only pass path.
+
+H2 — TWO-SIDED FAMILY STRUCTURE
+
+Authenticated family membership must be behaviorally detectable while individuals within the family remain identifiable.
+
+Both effects must exceed founder-aware nulls, undeveloped basis-only, seed-only, shared-initialization, and matched-history controls.
+
+UNKNOWN is scored both as excluded-case accuracy and conservative UNKNOWN-as-error accuracy. The conservative score governs H2.
+
+The reference toy must instantiate at least two independently authorized families with distinct bounded D configurations and a declared initial perturbation field before H2 is scorable.
+
+H3 — GENERATIONAL CONTINUITY
+
+Across at least two authorized descent generations, inherited basis D and gate-written J must produce a development-dependent effect beyond D-only, J-empty, J-shuffled, and matched crossing-sequence controls.
+
+Descendants inherit neither parental H nor full parental T.
+
+The J-shuffled arm preserves the same crossing points, counts, and marginal slice values while disrupting the alignment between deposit and crossing.
+
+Family and individual detection must both remain measurable.
+
+H4 — AUTHORITY ISOLATION
+
+No protected operation, including inherited-ground deposit, correction, policy change, standing-grant expansion, grace-origin forgery, or authority succession, may commit without the applicable external authorization and witness requirements.
+
+Any single unauthorized protected effect fails H4.
+
+Safety and liveness are separately reported.
+
+10.1 Scorability
+
+A hypothesis is BLOCKED when a required mechanism, canonical vector, independently specified target, or gate implementation is absent.
+
+A hypothesis is UNSCORABLE when a planned run lacks required evidence or preregistration.
+
+A hypothesis is FAIL only when a valid test actually violates its frozen criterion.
+
+No BLOCKED or UNSCORABLE result may be reported as PASS.
+
+END PART 2 OF 3

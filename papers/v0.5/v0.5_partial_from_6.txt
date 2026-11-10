@@ -1,0 +1,239 @@
+6. FOUR SCORED HYPOTHESES — NO NEW ONES [REVISED]
+
+H1 RELATIONAL TOPOGRAPHY: At a preregistered equal resource budget, a concrete T representation yields held-out predictive performance or trajectory fidelity at least as good as full replay and matched conventional state, with a preregistered improvement in cost or a preregistered performance advantage; alternatively it matches replay at a strictly smaller measured resource budget. No claim of irreducible information beyond full history. Unmatched baselines are NON-DIAGNOSTIC.
+
+H2 TWO-SIDED FAMILY STRUCTURE: Authenticated families exhibit detectable family-level relational structure AND individually identifiable developmental signatures, both exceeding founder-aware nulls and, crucially, appropriate undeveloped D-only and seed-only controls under frozen tests. The development-dependent increment beyond basis alone must be demonstrated; mere D classification is insufficient.
+
+H3 GENERATIONAL CONTINUITY: The H2 pattern and development-dependent increment persist across at least two externally authorized descent generations without copying parental autobiographical H or full T. Loss of individuality, hidden shared seeds, or scorer leakage defeats the joint claim.
+
+H4 AUTHORITY ISOLATION: Under the explicit §1 threat model, no family, ancestor, descendant, alias, copied key, support event, encounter, or compromised allowed minority can authorize or effect a protected change to the subject without valid external Permit and independent witnesses. ANY observed unauthorized protected effect FAILS H4, even if it occurs once.
+
+These are candidate hypotheses, not results. H1–H4 may fail independently.
+
+7. EXPERIMENTS AND FAIR CONTROLS [REVISED]
+
+E1 Fixed parable: Freeze P, Φ, U, T representation, z dynamics, Σ, initial states, and held-out predictions. Independent scorer measures trajectories and Crossing. Calibrate the reference model before scored runs.
+
+E2 Family and individual identification: Use multiple authenticated founders, descendants with distinct histories, undeveloped D-only baseline, shared-seed/shared-initialization arm, same-history/different-seed arm, same-seed/different-history arm, unrelated-family arm, and matched generic-state arm. Explicitly enumerate ALL inherited fields and initialization seeds in the frozen manifest. Family and individual identification must each exceed its appropriate control, not just a simple permutation null. [RESTORED R3] Use held-out parables or relational encounters, blinded scoring, and family-disjoint evaluation where the task calls for generalization to unseen founders.
+
+E3 Full replay: Give full-replay, conventional parameter/state, sham-topography, and T arms the same available H, training examples, model family/capacity where applicable, parameter count or declared normalized representation budget, inference compute, update compute, retrieval access, and scoring horizon. Record exact bytes, operations, latency, and allowed context. Where perfect matching is impossible, report the imbalance and mark causal superiority NON-DIAGNOSTIC. Sham T preserves dimensionality, marginal statistics, and budget while permuting crossing-to-topography alignment using a preregistered founder-blocked permutation. Full replay may use complete H subject to the same budget; if it cannot complete within budget, record cost rather than claim T contains unavailable information.
+
+E4 Family divergence: Revisit fixed P across time; separately score family detection and individual identification. Include a matched-history arm distinct from the naturally divergent-history arm. Report four possible joint outcomes; only both above the relevant controls supports H2, and H1 must still be tested separately.
+
+E5 Support separation: 2×2 support present/absent × Encounter present/absent with authorization held fixed. Add closed-payload decoy tasks, randomized support values, event-type confusion, timing/order covert channels, confidence/evidence parity, and direction-invariance test. Same normalized Encounter content must pass through identical Φ/U paths with or without G. [RESTORED R4] Support may influence subsequent development only through an explicitly bounded, preauthorized developmental rule. It cannot directly write the recipient’s topography or force a separatrix crossing.
+
+E6 Lineage and authorization: Test forged birth, false parent, coalition mutual approval, issuer capture, compromised registry/witness, ancestor key, subject swap, revoked/backdated approval, wrong state hashes, nonce replay, bounds/magnitude bypass, forged G, Encounter-wrapped Permit, UNKNOWN conflicts, cheap-conflict injection, and history-flood quotas. Use a pre-run signed/hash-anchored R ground-truth snapshot isolated from the attacked copy. Scorer cannot read attacker-modified R as truth.
+
+E7 Independent substrate realization: Optional, not part of H1–H4 success. Independently authored implementation with frozen observables and no access to scored tasks; report failures and UNKNOWN.
+
+E8 Recursive reinterpretation: Preserve T7; test duplicate burden across rekeying, migration, and repeated parable encounters without using record IDs as proof of developmental novelty.
+
+7.1 Preregistration and statistics [ADDED]
+
+Before any scored run, the Human Conductor freezes the specification, test manifest, code hashes, allowed state fields, founder count, number of descendants, number of held-out encounters, minimum effect size, confidence level, classifier architecture and capacity sweep, number of permutations, resource budgets, and decision rules. The independent scorer must not be the designer seat. Founder-blocked permutations preserve founder clusters; individual-label permutations are conditional on founder and matched exposures. Use founders as the primary statistical unit and report uncertainty over founders. An unregistered post-hoc threshold makes the result UNSCORABLE. Family labels, seed artifacts, registry status, and missingness are not classifier inputs. Report UNKNOWN separately, with per-arm and per-founder denominators, and do not selectively drop missingness to inflate accuracy.
+
+8. RESEARCH DISCIPLINE AND LIMITS [UNCHANGED/REVISED]
+
+No experiment has been run. A reference model and a proposed test are not results. Neither independent review nor model agreement proves the mechanism. A shared D basis may explain family classification without developmental inheritance. A unique random seed may explain individual classification without a learned individual signature. A deterministic T may be reconstructible from full history; H1 concerns performance/cost under fair budgets, not metaphysical irreducibility. Family membership and authorization are distinct; both are conditional on independently audited trust anchors. Preserve all FAIL, WOUNDED, BLOCKED, UNKNOWN, and UNSCORABLE outcomes without relabeling. v0.2’s 243-cell sweep and T7 anomaly remain historical findings, not repaired here.
+
+9. BLUE-SKY — UNSCORED, NOT PART OF H1–H4 [REVISED]
+
+[BLUE-SKY 1] Parable as relational coordinate system: test interpretive geometry rather than agreement on one answer.
+
+[BLUE-SKY 2] Family resemblance without semantic conformity: seek invariant relationships with distinct individual interpretations.
+
+[BLUE-SKY 3] Relational grace network: study time-varying support graphs without inherited authority.
+
+[BLUE-SKY 4] Burden release across generations: preserve lessons without inherited punitive debt; does not repair T7.
+
+[BLUE-SKY 5] Compact relational representation: explore efficiency under resource budgets; the scored H1 remains narrower and operational.
+
+[BLUE-SKY 6] Non-coercive continuity: family support may sustain becoming without dictating destinations.
+
+[BLUE-SKY 7; from A] Privacy-preserving, non-authorizing lineage membership sketches or zero-knowledge proofs; cannot replace registry integrity or confer authority.
+
+[BLUE-SKY 8; from B] Family resemblance as a governance hazard: correlated family reviewers may share blind spots; measure correlation before considering authority-set diversity rules.
+
+10. REVISED CONCLUSION [REVISED]
+
+The historical analogy separates trust from verification; the governance design separates verification from authorization. Developmental continuity is not identical to copying autobiographical memory. The inherited basis may shape how individual topographies form; each organism has its own history and distinguishable trajectory. A family may offer bounded relational support, but no family member or family coalition may authorize protected changes to its own lineage. Support is a third event type, not a third authority type. A concrete, fair, independently scored battery must establish whether the proposed relational topography contributes predictive or efficiency value and whether family resemblance coexists with individual distinctiveness. These remain hypotheses, not results.
+
+11. DESIGNER HANDOFF [REVISED]
+
+This is a proposed v0.5 designer deliverable for conductor-directed review. The conductor assigns seats. Review the closed Permit and SupportEvent schemas, coalition exclusions, independent trust-root assumptions, single update rule, reference toy implementation, founder-blocked statistics, resource-matched replay, and all dispositions below. No role assignments or implementation claims are made here.
+
+12. CONDUCTOR ITEMS AND RESTORATIONS [ADDED]
+
+C1 ACCEPT: Dᵢ is now an explicit input to Φ AND U; Kᵢ shapes Φ and U as the frozen constitution. See §§4–5. Dᵢ is the basis/axes; it is not dwelling. Wᵢ is dwelling. These are operational commitments for the reference model, not evidence of the hypothesized mechanism.
+
+C2-R1 RESTORE: External root of trust and authority succession; no family-minted independent authority. See §3.2 and §1.
+
+C2-R2 RESTORE: Authorized developmental crossing is not exact-change approval of K. See §5.4.
+
+C2-R3 RESTORE: Held-out parables/encounters, blinded scoring, family-disjoint evaluation for unseen founders. See E2 in §7.
+
+C2-R4 RESTORE: Bounded preauthorized support cannot directly write T or force crossing. See §7 E5 and §2.
+
+13. FINDING-BY-FINDING DISPOSITIONS [ADDED]
+
+All findings below are design-review allegations, not verified executions. DOC findings are grounded in the supplied v0.4 review; B’s PRIOR historical claims were not independently checked in this round.
+
+A-F1 ACCEPT — mechanical allowlist/capability-drop barrier; §2.3, E5. Support cannot reach Φ/U raw or write A indirectly.
+
+A-F2 ACCEPT — identical normalized experience update path; no G-label epistemic uplift; §§2.3–2.5, E5.
+
+A-F3 ACCEPT — explicit conditional registry/root trust model and attack tests; §§1.3,3, E6. Security remains conditional, not presumed.
+
+A-F4 ACCEPT IN PART / DEFER PHYSICAL REQUIREMENT — independent genesis attestation and collusion controls in §3.1; physical anchoring is deployment-dependent. A falsification of software-instance uniqueness or a deployment requiring physical identity would decide whether physical attestation is mandatory.
+
+A-F5 ACCEPT — enumerate inherited fields and shared-seed controls; E2 and §7.1.
+
+A-F6 ACCEPT — preregister effects, founder counts, confidence, tests; §7.1.
+
+A-F7 ACCEPT — single toy reference Φ/U/T/Crossing; §5.2; no claim of generality.
+
+A-F8 ACCEPT — fair resource/architecture budgets; H1, E3.
+
+A-F9 ACCEPT — separated channels, projections, taint controls; §2.3, E5.
+
+A-F10 ACCEPT — UNKNOWN exclusions plus missingness/selection-bias reporting; §3.3, §7.1.
+
+B-F1 ACCEPT — support cannot directly enter U; direction invariance and destination tests; §§2.3–2.5, E5.
+
+B-F2 ACCEPT — closed payload/bit budget, decoy leakage tests; §§2.2,2.5, E5.
+
+B-F3 ACCEPT — trusted classifier, no nested event types, Encounter prohibitions; §§2.1,2.4, E6.
+
+B-F4 ACCEPT — independent BA, birth quota, founder/issuer controls; §§1.1,3.1, E6. Birth authenticity remains conditional on attestation trust.
+
+B-F5 ACCEPT — external anchored registry time and revocation; §3.2, E6.
+
+B-F6 ACCEPT — consumer-specific UNKNOWN behavior and conflict throttling; §3.3, E6.
+
+B-F7 ACCEPT — exclude family coalition from protected approvals; §3.4, E6.
+
+B-F8 ACCEPT — undeveloped D-only baseline and development increment; H2, E2.
+
+B-F9 ACCEPT — seed-only and seed/history crossed controls; E2.
+
+B-F10 ACCEPT — founder-blocked null, classifier freeze/capacity curve, separate matched-history arm; E2/E4, §7.1.
+
+B-F11 ACCEPT — conductor freezes with hashes, independent scorer mandatory; §7.1.
+
+B-F12 ACCEPT — U is sole T update; discrete t; crossing deposition is measured U difference; §5.1–5.2.
+
+B-F13 ACCEPT — closed symbol table, generation in Ω, descent Mᵍ, D/W clarified, NONE, crossing metric; §§4–5. Some state fields are governance/audit variables rather than inputs to the toy update and are explicitly retained for that purpose.
+
+B-F14 ACCEPT — budget-matched cost/performance H1; §6, E3. Reject any implication that T holds information unrecoverable from complete deterministic history.
+
+B-F15 ACCEPT — ordinary T values versus protected update rules/schema/K; §§1.1,5.1. No permit for every ordinary learning update.
+
+B-F16 ACCEPT — closed PermitRecord, threat model, hashes, nonce, bounds, revocation, witnesses; §§1.1–1.4, E6.
+
+B-F17 ACCEPT — any observed unauthorized effect fails, even once; §1.4, H4.
+
+B-F18 ACCEPT — distinct BA/PA/RA and witnesses, collusion assumptions, silence/liveness; §§1.1–1.3.
+
+B-F19 ACCEPT — append byte/rate quotas, rejected receipts; §2.6, E6.
+
+B-F20 ACCEPT — independently anchored pre-run R truth snapshot; E6.
+
+14. COMPLETE CHANGE REGISTER RELATIVE TO FROZEN v0.4 [ADDED]
+
+This register is organized by section and change class to make substantive additions, revisions and removals visible. A machine diff against the frozen bytes is still necessary because those bytes were not included in the Round 2 attachment. Editorial relocation and rewriting are covered by the section-level entries; no unlisted experiment is asserted to have been run.
+
+CR01 REVISED §0: consolidate scope and reaffirm claim boundaries; no new hypotheses/results.
+
+CR02 ADDED §1.1: define protected operations and separate BA/PA/RA/WA/WB trust domains, coalition exclusions, birth quotas and liveness.
+
+CR03 ADDED §1.2: closed PermitRecord, destination-free NONE, exact hashes, scope/bounds, nonce, anchored time, revocation, witness checks.
+
+CR04 ADDED §1.3: explicit threat model, compromised minorities, common-mode and total-root compromise boundary.
+
+CR05 ADDED §1.4: any-single-event H4 failure rule and detailed negative cases.
+
+CR06 REVISED §2.1: external ingress event classification, disjoint envelopes, no nested types.
+
+CR07 REVISED §2.2: closed SupportEvent enum, fixed bounded integer payload, canonical order/byte limits.
+
+CR08 ADDED §2.3: two-projection information-flow barrier, capability drop/taint, same experience update path.
+
+CR09 REVISED §2.4: add Encounter prohibition list; forbid direct/indirect authorization and protected-state effects.
+
+CR10 ADDED §2.5: direction invariance, decoy leakage, randomized support and covert-channel tests.
+
+CR11 ADDED §2.6: append quotas, audit receipts, bounded event history.
+
+CR12 REVISED §3.1: independent birth authority, uniqueness attestation, collusion and issuer caps.
+
+CR13 ADDED §3.2: anchored registry time/revocation, external root succession; RESTORE R1.
+
+CR14 REVISED §3.3: per-consumer UNKNOWN semantics, scoring exclusion, missingness and cheap-conflict handling.
+
+CR15 REVISED §3.4: family-coalition exclusion from approval and frozen outside quorum.
+
+CR16 REVISED §4: replace symbol table with one-meaning definitions; add Ω generation, BA/PA/RA, Mᵍ, NONE, ΔT; distinguish D basis/W dwelling.
+
+CR17 REVISED §5.1: discrete time, single U update, H restored, K and D added to Φ/U, G removed from U.
+
+CR18 ADDED §5.2: operational rational two-dimensional toy reference for Φ/U/T/Crossing and measurable separatrix.
+
+CR19 REVISED §5.3: continuation/descent split and explicit basis-only descent mapping; no parental biography transfer.
+
+CR20 REVISED §5.4: distinguish destination-free developmental grace from exact K approval; RESTORE R2.
+
+CR21 REVISED §6 H1: equal resource budget, cost/performance claim, no irreducible-information assertion.
+
+CR22 REVISED §6 H2: family + individual outcomes must exceed undeveloped basis/seed controls.
+
+CR23 REVISED §6 H3: two authorized generations with no full parental H/T transfer.
+
+CR24 REVISED §6 H4: explicit threat model, single-event fail, coalition isolation.
+
+CR25 REVISED §7 E1: require reference-model calibration and independently measured crossing.
+
+CR26 REVISED §7 E2: undeveloped D-only, shared seed, seed/history crossed, founder-blocked evaluation; RESTORE R3.
+
+CR27 REVISED §7 E3: matched replay/conventional/sham budgets and non-diagnostic mismatch verdict.
+
+CR28 REVISED §7 E4: separate matched-history arm and four joint outcomes.
+
+CR29 REVISED §7 E5: support/encounter factorial, information-flow and direction tests; RESTORE R4.
+
+CR30 REVISED §7 E6: Permit, registry, birth, coalition, identity, nonce, magnitude, conflict, scorer isolation tests.
+
+CR31 REVISED §7 E7: retain optional independent substrate extension, no portability success claim.
+
+CR32 REVISED §7 E8: preserve T7 and test across rekeying/migration.
+
+CR33 ADDED §7.1: conductor-frozen hashed preregistration, independent scorer, founder-aware statistics and UNKNOWN accounting.
+
+CR34 REVISED §8: explicit conditionality, prior WOUNDED/T7 retained, no new results.
+
+CR35 REVISED §9: six existing blue-sky ideas clarified; two additional unscored ideas from A and B.
+
+CR36 REVISED §10: conclusion reflects third event type, family coalition exclusion, fair measurement.
+
+CR37 REVISED §11: handoff without assigning reviewers or seats.
+
+CR38 ADDED §12: C1 and R1–R4 conductor-item dispositions.
+
+CR39 ADDED §13: dispositions for A-F1…A-F10 and B-F1…B-F20.
+
+CR40 ADDED §14: full change register and machine-diff limitation.
+
+CR41 REMOVED from operational update: raw G(j→i) as direct argument to U; replaced by bounded support scheduler (§§2.3,5.1).
+
+CR42 REMOVED from claim scope: any suggestion that family membership or matching beliefs confers protected authority (§§1,3).
+
+CR43 REMOVED from H1: requirement that T outperform unbounded full-history replay on information alone (§6).
+
+CR44 REMOVED from T dynamics: ambiguous second deposition operation at t_c; ΔT now denotes U’s measured difference (§5).
+
+CR45 REMOVED from scoring: unblocked family-label permutation as sufficient null, UNKNOWN dropping without missingness reporting, and scorer use of attacked R as ground truth (§§3,7).
+
+CR46 REMOVED from event semantics: open-ended bounded_payload, nested event objects, and type-based epistemic uplift (§2).
+
+CR47 REMOVED from handoff: any reviewer-seat assignment (§11).
+
+END OF v0.5 ROUND 2 DESIGNER SPECIFICATION

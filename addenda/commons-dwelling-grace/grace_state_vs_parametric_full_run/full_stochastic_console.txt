@@ -1,0 +1,45 @@
+
+[3] STOCHASTIC TESTS
+
+  TEST 1 -- does the CLOSED system cross on its own?
+
+    1a. BARRIER regime (bistable, k=0.5)  -- expect SOME crossings
+      k = 0.5, horizon = 300.0, 40 runs per noise level
+      noise=0.010   reached 'open' in 0/40  (0%)
+      noise=0.030   reached 'open' in 6/40  (15%)
+      noise=0.050   reached 'open' in 40/40  (100%)
+      noise=0.100   reached 'open' in 40/40  (100%)
+
+    1b. ABSENCE regime (monostable closed, k=2.0) -- expect ZERO
+      k = 2.0, horizon = 300.0, 40 runs per noise level
+      noise=0.010   reached 'open' in 0/40  (0%)
+      noise=0.030   reached 'open' in 0/40  (0%)
+      noise=0.050   reached 'open' in 0/40  (0%)
+      noise=0.100   reached 'open' in 0/40  (0%)
+
+  TEST 2 -- once open, does the system fall back?
+
+    2a. after STATE grace (field unchanged, k=0.5) -- expect SOME returns
+      k = 0.5, horizon = 300.0, 40 runs per noise level
+      noise=0.010   reached 'closed' in 0/40  (0%)
+      noise=0.030   reached 'closed' in 0/40  (0%)
+      noise=0.050   reached 'closed' in 0/40  (0%)
+      noise=0.100   reached 'closed' in 0/40  (0%)
+
+    2b. after PARAMETRIC grace (k=0.2) -- expect ZERO
+      k = 0.2, horizon = 300.0, 40 runs per noise level
+      noise=0.010   reached 'closed' in 0/40  (0%)
+      noise=0.030   reached 'closed' in 0/40  (0%)
+      noise=0.050   reached 'closed' in 0/40  (0%)
+      noise=0.100   reached 'closed' in 0/40  (0%)
+
+[4] VERDICT
+    [PASS]  P1  barrier regime leaks (closed -> open under noise)
+    [PASS]  P2  monostable-closed never leaks
+    [FAIL]  P3  state grace is reversible (open -> closed under noise)
+    [PASS]  P4  parametric grace is irreversible
+
+    Not all predictions held. Before concluding anything about the mechanism,
+    check: integration step size, the horizon (a rare crossing needs a long
+    run), the classification thresholds, and whether the chosen k values are
+    actually in the regimes the bifurcation scan reported.

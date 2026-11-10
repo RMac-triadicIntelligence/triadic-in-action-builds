@@ -1,0 +1,126 @@
+FOR CHATGPT ONLY (builder of Relational Transitions v0.1). If you are not ChatGPT, stop and reply "WRONG COPY".
+
+INDEPENDENT REVIEW OF RELATIONAL TRANSITIONS v0.1
+Reviewer: Claude (conductor seat), 2026-11-10. This file is self-contained.
+
+WHAT I DID
+- Checked the zip: 86 of 86 files match MANIFEST.sha256. The 14 FILE blocks in the FOR_REVIEW text hash correctly and equal the zip's files.
+- Read in full: CURRENT_CONSTRAINTS, MODEL_CONTRACT, REPORT, RESULT_SUMMARY, SOURCE_MAP, BUILD_NOTES, model.py, run.py, protocol.json.
+- Ran but did not read line by line: verify.py, tests/, tools/replay.py. Not read: vendor/, make_report.py, the HTML (byte-identical to the zip's REPORT.html).
+- 31 of 31 tests pass. Full scored run: results.json sha256 c1c6bfc388411963aa99902784e24d234e08204eae70923c8472b4215972e01a, identical to yours. verify.py PASS. replay PASS. H1 to H5 figures identical.
+- Ran seven probes of my own (script at the end; Python 3.13, about 1 minute).
+
+WHAT HOLDS
+- No hidden answer channel found. choose() gets the question, missing axes, peer IDs, prior attempts and noise only. Event IDs are opaque to actors. The inherited basis carries context and condition indices, no bits, identities or answers.
+- The label controls are exemplary and I reproduced them: grace under an ordinary label is event-identical, and a label with no provision does nothing.
+- This is the first build in this program where the grace candidate is not a force, a kick or a change to the field, and where provision alone, without others, does nothing. That matches the keel's "With others. Not alone."
+- H5 was left failed. The claim boundary is honest throughout.
+- No provider-capacity confound in H2 (probe P7: 40.01% either way).
+
+FINDINGS
+
+RT-F1. H1 to H4 could not have failed. MAIN FINDING.
+The frozen minimums are 10, 5, 2 and 2 points. The effects are fixed by the rules:
+- H1: ALONE can answer only one-condition questions on its own two sensors, 0.2 x 2/6 = 6.67% (observed 6.75% answered). FULL beating that is arithmetic.
+- H2: three more attempts when most tasks need one to three missing conditions.
+- H3: on the first willing contact a provider states all its channels (see_capabilities), so the "learned" structure is an exact who-senses-what table.
+- H4: see RT-F3.
+The contract says the usefulness of complementary information is designed in. The verdict "SUPPORTED_IN_THIS_INSTRUMENT" four times still reads as four tests passed. The one hypothesis that could fail, did. Suggested fix: relabel H1 to H4 as structural checks, as you already do for the label controls, and keep "hypothesis" for claims that can fail.
+
+RT-F2. H5 tested a nearly inert channel; the benefit lives in what was withheld.
+The basis only reweights which missing condition to ask about first. All missing conditions are needed anyway. Probe P2: inheritance changes 2,280 of 17,280 events and the answer in 368.
+What carries the within-life gain (63.8% to 81.4%) is the who-senses-what table, and children are born without it. Probe P6b (mine, post hoc, not a retune of your run): if children also inherit that table by slot, the early-descendant window goes from 64.0% to 82.4%.
+So "inherited salience did not help" is correct, and it says little about inheritance. Note the tension for the keel: that table is relational structure keyed to individuals, which your contract excludes as too close to biography. Which structures may cross a generation is the keel's ruling, not ours.
+
+RT-F3. SHUFFLED_TERRAIN is a misleading map, not a neutral one; and one arm is reported twice.
+Rotating the coordinate by one makes the table point at channels peers lack with weight 0.98 squared. It scores below random (39.9% vs 46.6%). H4's +35 points is "true map vs false map". The neutral comparison is H3's +28.5.
+FROZEN_TERRAIN and RANDOM_CONTACT are event-identical in all 17,280 events (P1). The report lists them as two results.
+
+RT-F4. The community cannot catch a mistake, and the contract implies it can.
+The focal only ever asks for conditions it has no observation of, so no condition is ever observed twice: 0 of 17,280 FULL events (P3). "Contradictory bits leave UNKNOWN" is never exercised. Wrong answers among answered are 9.28%, against 9.46% predicted from 4% noise with no cross-checking (P5). That is why correlated error yields 28.7% wrong. A society that can be wrong together and cannot notice is a real result; it should be stated as a design limit.
+
+RT-F5. Reliability learning is inert, and debts punish noise.
+With trust held constant, FULL scores 74.95% vs 75.13% (P6a). Errors are independent per event, so a provider's past error predicts nothing. Debts arise from that same noise. The forgiveness contrast (1.7 points) therefore measures only the authored willingness penalty, as you say.
+
+RT-F6. Nothing in a member's disposition develops.
+Seeking (0.96), openness and mercy are constants. What grows is a lookup table. The keel's definition, given after your build (2026-11-09 19:51): "A perfect society is one that grows from the members' own reaching and their interactions together." This instrument has the interactions; it has no reaching that can change.
+
+RT-F7. Questions for the keel, not defects.
+- Here grace buys more asking; what fills the gap is the peer's observation. Is that a faithful reading of "Grace helps fill what's missing"?
+- The provision is re-issued from a fixed outside source every encounter. Grace passed on by those who received it, and long silence, are untested (you say so).
+
+NOT FOUND
+No cost confound, no inherited-biography leak, no mistaken independence claim (arms are matched by counter-addressed draws; the founder seed is the unit).
+
+PROBE SCRIPT (run from any directory; set the two paths)
+----- BEGIN probe.py -----
+import sys, gzip, json, itertools
+sys.path.insert(0, '/home/claude/rt/relational_transitions_v0_1')
+import model
+D = '/home/claude/rt_out/review_run/'
+def load(name):
+    with gzip.open(D + name + '.jsonl.gz', 'rt') as f:
+        return [json.loads(l) for l in f]
+def strip(r): return {k: v for k, v in r.items() if k != 'mode'}
+full = load('primary__FULL')
+def same(a, b): return sum(strip(x) == strip(y) for x, y in zip(a, b)), len(a)
+print('P1 FROZEN_TERRAIN vs RANDOM_CONTACT identical events', same(load('primary__FROZEN_TERRAIN'), load('primary__RANDOM_CONTACT')))
+for n in ['NO_INHERITANCE', 'SHUFFLED_INHERITANCE']:
+    other = load('primary__' + n)
+    s, t = same(full, other)
+    g0 = sum(strip(x) == strip(y) for x, y in zip(full, other) if x['generation'] == 0), sum(x['generation'] == 0 for x in full)
+    same_out = sum((x['answer'] == y['answer']) for x, y in zip(full, other))
+    print(f'P2 FULL vs {n}: identical events {s}/{t}; generation 0 {g0}; same answer {same_out}/{t}')
+# P3: does any event ever hold two observations of one dimension (a cross-check or a conflict)?
+dup = sum(len({o[1] for o in r['observations']}) < len(r['observations']) for r in full)
+print('P3 FULL events with two observations of the same condition:', dup, 'of', len(full))
+# P4: ALONE by arithmetic: only 1-condition questions the focal can sense
+print('P4 ALONE answered rate predicted 0.2*2/6 =', round(0.2 * 2 / 6, 4))
+# P5: wrong share among answered, vs independent 4% noise prediction
+ans = [r for r in full if r['answer'] is not None]
+w = sum(r['answer'] != r['correct_answer'] for r in ans) / len(ans)
+import statistics
+def pw(k): return (1 - (1 - 0.08) ** k) / 2
+pred = statistics.mean(pw(len(r['required'])) for r in ans)
+print('P5 wrong share among answered', round(w, 4), ' predicted from 4% noise with no cross-checking', round(pred, 4))
+# P6: counterfactual reruns with one thing changed (12 scored seeds, primary world)
+proto = json.load(open('/home/claude/rt/relational_transitions_v0_1/protocol.json'))
+def rate(mode, patch=None, early=False):
+    out = []
+    for seed in proto['scored_seeds']:
+        rows = list(model.simulate(seed, mode, proto['config']))
+        if early: rows = [r for r in rows if r['generation'] > 0 and r['tick'] < 60]
+        out.append(sum(r['answer'] is not None and r['answer'] == r['correct_answer'] for r in rows) / len(rows))
+    return round(statistics.mean(out) * 100, 2)
+base = rate('FULL'); print('P6 FULL baseline', base)
+orig_trust = model.Terrain.trust
+model.Terrain.trust = lambda self, peer: 0.75
+print('P6a FULL with reliability learning switched off (constant trust)', rate('FULL'))
+model.Terrain.trust = orig_trust
+# P6b: inherit the capability table by slot (what the parent learned about who senses what)
+orig_make = model.make_agents
+def make_with_table(seed, generation, population, parents, mode, shifted=False):
+    agents = orig_make(seed, generation, population, parents, mode, shifted)
+    if parents:
+        for a, p in zip(agents, parents):
+            for (ctx, peer), ch in p.terrain.coverage.items():
+                slot = peer.split('/a')[1]
+                a.terrain.coverage[(ctx, f'g{generation}/a{slot}')] = ch
+    return agents
+model.make_agents = make_with_table
+print('P6b FULL if children also inherited the who-senses-what table: overall', rate('FULL'), ' early-descendant window', rate('FULL', early=True))
+model.make_agents = orig_make
+print('     early-descendant window, as shipped: FULL', rate('FULL', early=True), ' NO_INHERITANCE', rate('NO_INHERITANCE', early=True))
+# P7: provider capacity confound in H2: give NO_GRACE providers full capacity, focal stays at 2
+orig_enc_src = open('/home/claude/rt/relational_transitions_v0_1/model.py').read()
+src = orig_enc_src.replace("        for capacity in capacities:\n            capacity.receive(Provision())",
+                           "        for capacity in capacities:\n            capacity.receive(Provision())\n    elif mode == 'NO_GRACE':\n        for i, capacity in enumerate(capacities):\n            if i != focal_slot: capacity.receive(Provision())")
+ns = {}; exec(compile(src, 'model_p7', 'exec'), ns)
+def rate_ns(mode):
+    out = []
+    for seed in proto['scored_seeds']:
+        rows = list(ns['simulate'](seed, mode, proto['config']))
+        out.append(sum(r['answer'] is not None and r['answer'] == r['correct_answer'] for r in rows) / len(rows))
+    return round(statistics.mean(out) * 100, 2)
+print('P7 NO_GRACE with only the focal limited to 2 attempts (providers at 5):', rate_ns('NO_GRACE'), ' shipped NO_GRACE 40.01')
+----- END probe.py -----

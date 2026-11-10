@@ -1,0 +1,10 @@
+results.json sha256 c3c4099af06340f469bc4de9fe0c904b8a9c4ac31bfc32d45ec4378abe969b73
+PASS  P1_R7_own_crossing: No grace: the organism crosses on its own at the lowest barrier and fails at the highest
+PASS  P2_filling: Ready + filling: crosses at every barrier weight; median time grows with weight
+PASS  P3_nudge: Ready + one nudge: crosses at every barrier weight; time after the nudge roughly independent of weight (max/min < 2)
+INFO  P_control_crossing_times: Context, not a pass/fail test: the lowered-barrier control also crosses everywhere on a similar clock, so crossing times alone cannot separate it from filling
+PASS  P6_landscape_unchanged: Above the water line the receiver feels the unchanged landscape force; the control does not
+FAIL  P4_unready_nudge: Unready + nudge: no grace-enabled crossing, and the level rises
+FAIL  P5_fullness_helps_readiness: Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses
+FAIL  P8_non_harm: Grace arm never ends with less maturity than its matched no-grace twin
+PASS  P7_selection_audit: The population audit passes the lottery grantor and flags the grantor who grants by destination

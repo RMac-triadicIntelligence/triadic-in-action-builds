@@ -1,0 +1,135 @@
+PART 2 OF 3 — v0.6 ROUND 3 DESIGNER SEAT
+
+[BLUE-SKY 10; Falsifier B] Blind committed support before state observation; unscored pending the grace-definition round and timing-channel analysis.
+
+10. CONDUCTOR DISPOSITIONS [ADDED]
+    RULE 1 ACCEPT: §§1,5,6 H3,8. Personal T evolves every ordinary step; gate-only J deposits at authorized crossings and corrections; D and J inherited, not parental H/T. The proposed pending-confirmation sequencing flags the crossing-confirmation tension rather than redefining grace.
+    C3 ACCEPT: §5.8 explicitly declares toy H/Q specialization.
+    C4 DEFER: §5.9 records deterministic destination inference as an unresolved grace-definition issue.
+    C5 RESTORE: §2.6 and §8 explicitly say UNKNOWN is not proof of nonmembership.
+11. ROUND 3 FALSIFIER DISPOSITIONS [ADDED]
+    A-F11 ACCEPT: §§3.3,5.5 pure holds and separate clocks.
+    A-F12 ACCEPT: §§5.3–5.5 define Q/W/I/B/A/L/H identity or update rules.
+    A-F13 ACCEPT: §§5.5–5.6 support-independent learning-step windows; oscillation and zero cases explicit.
+    A-F14 ACCEPT: §5.2 bit-exact canonical encoding and mandatory vectors; implementation remains to be tested.
+    A-F15 ACCEPT: §2.6 unknown lineage closure fails closed.
+    A-F16 ACCEPT: §3.3 deterministic exact invariance; no arbitrary 0.2 tolerance.
+    A-F17 ACCEPT: E3 comprehensive resource cost ledger.
+    A-F18 ACCEPT: E2 all K/D constants inventoried, controlled and seed-matched.
+    A-F19 ACCEPT: §2.4 numeric f=1 and 2-of-3 reference quorums, with test at bound.
+    A-F1 RESIDUAL ACCEPT: §3.3 pure hold and adaptive timing probes; live exposure steering remains a declared residual risk.
+    A-F2 RESIDUAL ACCEPT: label uplift barred, exposure differences separately measured.
+    A-F3 RESIDUAL ACCEPT: registry capture remains conditional on independent roots.
+    A-F4 DEFER: software uniqueness is instance/key attestation, not proof against colluding all roots; physical necessity depends on deployment.
+    A-F5 RESIDUAL ACCEPT: explicit constant inventory and seed-control arms; undeclared RNG remains an implementation audit concern.
+    A-F6 RESIDUAL ACCEPT: preregistration retained; weak thresholds require independent critique.
+    A-F7 RESIDUAL ACCEPT: full toy rules and golden trace; reproduction not yet demonstrated.
+    A-F8 RESIDUAL ACCEPT: E3 cost model broadened; unmatched budgets non-diagnostic.
+    A-F9 RESIDUAL ACCEPT: separated ingress and exact-update parity.
+    A-F10 RESIDUAL ACCEPT: UNKNOWN two-denominator reporting.
+    B-R2-F1 ACCEPT: §§3.3,5.5 pure holds; adaptive sender in E5.
+    B-R2-F2 ACCEPT: §2.1 protected policy/authority/threshold changes under old policy.
+    B-R2-F3 ACCEPT: §§5.3–5.7 complete fixed-point and dwell rules, oscillation, trace.
+    B-R2-F4 ACCEPT: H1 same-size conventional state and external targets; cost-only branch removed.
+    B-R2-F5 ACCEPT WITH OPEN DEPENDENCY: §2.8 precommit gate and §5.6 pending-confirmation; grace opening unresolved.
+    B-R2-F6 ACCEPT: §2.5 external PA and reciprocal-coalition threat.
+    B-R2-F7 ACCEPT: §2.5 protected BA accreditation and per-root cap.
+    B-R2-F8 ACCEPT: E2 seed-control perturbation and instance uniqueness distinct from behavioral identity.
+    B-R2-F9 ACCEPT: E2 conservative UNKNOWN-as-error scoring.
+    B-R2-F10 ACCEPT: §2.4 2-of-3 witness quorum for one-fault liveness assumption; liveness separate from H4.
+    B-R2-F11 ACCEPT: §§2.7–2.8 lineage-slice anchoring and crash-atomic commit.
+    B-R2-F12 ACCEPT: §2.7 effective revocation at anchor only.
+    B-R2-F13 ACCEPT: §3.4 and E5 balance support exposure.
+    B-R2-F14 ACCEPT: Rule 1 J_F inheritance supplies developed intergenerational ground, tested against J-empty/shuffled.
+    B-R2-F15 DEFER: gate-opening grace definition explicitly PENDING; §5.6 provides only staging/commit mechanics, not its substantive trigger.
+    B-R2-F16 ACCEPT: §2.3 four statuses; §3.2 static AND runtime checks.
+    B-F1 PARTLY CLOSED: timing steering residual; pure hold closes in-toy path; live arrival remains open.
+    B-F2 MOSTLY CLOSED: closed support payload retained; timing leakage explicitly UNKNOWN when unmeasured.
+    B-F3 CLOSED: ingress type checks retained.
+    B-F4 PARTLY CLOSED: accredited BA/root cap; collusion beyond bound remains conditional.
+    B-F5 CLOSED WITH FIX: revocation anchor fixed in §2.7.
+    B-F6 CLOSED WITH FIX: conservative UNKNOWN scoring added.
+    B-F7 PARTLY CLOSED WITH FIX: cross-family reciprocity excluded by §2.5.
+    B-F8 CLOSED WITH CONTROL: D-only arm retained and J-empty added.
+    B-F9 RELABELED WITH FIX: explicit seed perturbation control in E2.
+    B-F10 CLOSED: founder-blocked null retained.
+    B-F11 CLOSED: Conductor freezes, scorer independent.
+    B-F12 CLOSED BUT SUPERSEDED: ordinary U remains single; gate-only J is separate write set under V per Rule 1.
+    B-F13 PARTLY CLOSED WITH FIX: W, E, rounding and state updates defined.
+    B-F14 RELABELED WITH FIX: cached-replay alternative removed; independent target added.
+    B-F15 CLOSED WITH FIX: protected gate precommit staging.
+    B-F16 MOSTLY CLOSED WITH FIX: policy protection and crash protocol added; deployment proof pending.
+    B-F17 CLOSED: single unauthorized effect fails.
+    B-F18 PARTLY CLOSED WITH FIX: 2-of-3 witnesses, safety/liveness distinct.
+    B-F19 CLOSED: quotas retained.
+    B-F20 CLOSED: scorer registry snapshot isolation retained.
+    Historical PRIOR claims in B’s report were not independently verified here; dispositions concern specification weaknesses, not historical proof.
+12. COMPLETE DESIGN CHANGE REGISTER RELATIVE TO v0.5 [ADDED]
+    CR01 ADDED §1 lineage ground J_F as distinct from personal T.
+    CR02 ADDED §1 gate-only crossing and correction deposits, correction provenance and anchoring.
+    CR03 REVISED §1 and §5 descent passes D_child and inherited J_F; no parental H/T.
+    CR04 REVISED §1/§5 single coordinated V with disjoint personal and gate write sets.
+    CR05 REMOVED v0.5 claim that ΔT at crossing is ONLY the ordinary U difference and no separate inherited deposit exists; retained ΔT for personal U difference.
+    CR06 ADDED §1 gate-opening PENDING (GRACE DEFINITION) without defining grace.
+    CR07 REVISED §2 protected policy, thresholds, BA accreditation, quorum membership and witness configuration.
+    CR08 ADDED §2 old-policy elevated threshold and activation delay for policy updates.
+    CR09 REVISED §2 authorization statuses ALLOW/REFUSE/UNKNOWN/PENDING.
+    CR10 REVISED §2 threat model includes adaptive sender and cross-family reciprocal coalitions.
+    CR11 ADDED §2 reference f=1, 2-of-3 authority/witness assumptions.
+    CR12 REVISED §2 family-closure UNKNOWN fails closed.
+    CR13 REVISED §2 registry revocation anchored nonretroactively.
+    CR14 REVISED §2 Permit snapshot binds relevant ancestry slice, not volatile global tip as a sole invalidator.
+    CR15 ADDED §2 staged, nonce-reserved, witnessed, idempotent protected commit and crash recovery.
+    CR16 REVISED §2 BA accreditation and family-root quotas.
+    CR17 REVISED §3 static AND runtime taint enforcement.
+    CR18 REVISED §3 pure-hold support semantics; learning-step vs scheduler-tick clocks.
+    CR19 REVISED §3 exact deterministic direction invariance; no arbitrary tolerance.
+    CR20 ADDED §3 support exposure balance and state-adaptive sender probes.
+    CR21 REVISED §4 symbol table with J_F, V, δ_F, WC, f and toy arithmetic.
+    CR22 REVISED §5 Ω and Φ include inherited J_F; toy H/Q specialization declared.
+    CR23 ADDED §5 canonical CBOR state hashing and domain-separated SHA-256.
+    CR24 REVISED §5 fixed-point precision, ties-even rounding and arithmetic order.
+    CR25 ADDED §5 frozen initial toy constants and explicit E/other-field updates.
+    CR26 REVISED §5 crossing persistence, zero/oscillation, prospective gate and pending deposit.
+    CR27 ADDED §5 ten-step calibration trace requirement.
+    CR28 REVISED H1 same-size conventional-state comparison on independent targets.
+    CR29 REMOVED H1 cached-state cost-only replay-success alternative.
+    CR30 REVISED H2 conservative UNKNOWN-as-error score and seed/basis controls.
+    CR31 REVISED H3 developed inherited J_F beyond basis-only inheritance.
+    CR32 REVISED H4 policy and J writes are protected; any single unauthorized effect fails.
+    CR33 REVISED E1 independent target and gate calibration.
+    CR34 REVISED E2 explicit perturbation, matched seed/history, D-only and J controls.
+    CR35 REVISED E3 full cost accounting including scheduler/audit/bytes/witnesses.
+    CR36 REVISED E4 support-balanced divergence and J controls.
+    CR37 REVISED E5 adaptive sender, timing and exact direction tests.
+    CR38 REVISED E6 policy, root, crash, quorum and unauthorized J tests.
+    CR39 REVISED E7 optional portability retained, no new claim.
+    CR40 REVISED E8 T7 and correction-anchor tests, no claimed repair.
+    CR41 ADDED §9 two blue-sky ideas, scheduler trace and blind committed support.
+    CR42 ADDED §10 conductor Rule 1/C3/C4/C5 dispositions.
+    CR43 ADDED §11 all A and B findings and residual disposition statuses.
+    CR44 ADDED §12 complete change register.
+    CR45 REMOVED any implicit claim that two witnesses can tolerate one silent witness while preserving liveness.
+    CR46 REMOVED silent UNKNOWN-as-nonmembership interpretation.
+    CR47 REMOVED unspecified time/rounding/E-update and oscillation outcomes in toy.
+    CR48 REMOVED authority for any ordinary U, Encounter, or G path to write inherited ground.
+    CR49 REVISED handoff: no reviewer assignments; conductor assigns seats.
+    CR50 UNCHANGED support schema and Permit semantic distinction; grace definition pending.
+13. HANDOFF [REVISED]
+    This is ONE proposed v0.6 Round 3 design. The conductor assigns seats. Before scored testing, independently check canonical vectors, gate crash invariants, crossing/deposit timing, all ten trace steps, authority independence, H1 target independence, and H3 causal inheritance controls. Do not claim a completed run, a repaired T7, or a resolved definition of grace.
+
+APPENDIX A — TEN-STEP GOLDEN TRACE (CALCULATED, NOT EXPERIMENTAL)
+The following is a deterministic arithmetic test vector calculated with the specified nearest-ties-to-even update rule. This is not an independent two-implementation reproduction and is not evidence for H1–H4. For this no-crossing calibration only, override z₀=(256,128), retain P₀=(512,-256), identity D, zero T and E, NONE encounters, zero support holds, empty J, Q=0. The crossing-free initial override is deliberate so gate semantics remain PENDING and do not affect the arithmetic vector. E remains zero, T remains the zero matrix, and W remains zero throughout. Column headings: t | x_before | y_before | M_x | M_y | x_after | y_after | E_x | E_y | W.
+0 | 256 | 128 | 512 | -256 | 288 | 80 | 0 | 0 | 0
+1 | 288 | 80 | 512 | -256 | 316 | 38 | 0 | 0 | 0
+2 | 316 | 38 | 512 | -256 | 340 | 1 | 0 | 0 | 0
+3 | 340 | 1 | 512 | -256 | 362 | -31 | 0 | 0 | 0
+4 | 362 | -31 | 512 | -256 | 381 | -59 | 0 | 0 | 0
+5 | 381 | -59 | 512 | -256 | 397 | -84 | 0 | 0 | 0
+6 | 397 | -84 | 512 | -256 | 411 | -106 | 0 | 0 | 0
+7 | 411 | -106 | 512 | -256 | 424 | -125 | 0 | 0 | 0
+8 | 424 | -125 | 512 | -256 | 435 | -141 | 0 | 0 | 0
+9 | 435 | -141 | 512 | -256 | 445 | -155 | 0 | 0 | 0
+For this vector the sign of x remains positive; Crossing is false at every step. The state update uses round-to-nearest ties-to-even on (M−z)/8. Independent implementation comparison and the required 0/1/15 hold, oscillation, and zero-touch vectors remain outstanding. No experiment has been executed.
+
+END v0.6 — ROUND 3 DESIGNER SEAT

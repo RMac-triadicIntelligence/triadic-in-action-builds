@@ -1,0 +1,76 @@
+=== EXP1: Appendix A golden trace, default reading ===
+0 | 256 | 128 | 512 | -256 | 288 | 80 | 0 | 0 | 0
+1 | 288 | 80 | 512 | -256 | 316 | 38 | 0 | 0 | 0
+2 | 316 | 38 | 512 | -256 | 340 | 1 | 0 | 0 | 0
+3 | 340 | 1 | 512 | -256 | 362 | -31 | 0 | 0 | 0
+4 | 362 | -31 | 512 | -256 | 381 | -59 | 0 | 0 | 0
+5 | 381 | -59 | 512 | -256 | 397 | -84 | 0 | 0 | 0
+6 | 397 | -84 | 512 | -256 | 411 | -106 | 0 | 0 | 0
+7 | 411 | -106 | 512 | -256 | 424 | -125 | 0 | 0 | 0
+8 | 424 | -125 | 512 | -256 | 435 | -141 | 0 | 0 | 0
+9 | 435 | -141 | 512 | -256 | 445 | -155 | 0 | 0 | 0
+BYTE-IDENTICAL TO APPENDIX A: True
+T after 10 steps: [[0, 0], [0, 0]]  I: [1, -1]  crossings: []
+
+=== EXP2: which alternative readings does the golden trace catch? ===
+round=half_away: matches=False first_diff_row=2
+round=floor: matches=False first_diff_row=3
+round=trunc: matches=False first_diff_row=2
+sat_each_add=False: matches=True first_diff_row=None
+outer_single_round=True: matches=True first_diff_row=None
+M_uses_T_next=True: matches=True first_diff_row=None
+sat_diff=True: matches=True first_diff_row=None
+
+=== EXP3: spec default z0=(-256,128) from 5.3, NONE encounters, no support ===
+0 | -256 | 128 | 512 | -256 | -160 | 80 | 0 | 0 | 0
+1 | -160 | 80 | 512 | -256 | -76 | 38 | 0 | 0 | 0
+2 | -76 | 38 | 512 | -256 | -2 | 1 | 0 | 0 | 0
+3 | -2 | 1 | 512 | -256 | 62 | -31 | 0 | 0 | 0
+4 | 62 | -31 | 512 | -256 | 118 | -59 | 0 | 0 | 0
+5 | 118 | -59 | 512 | -256 | 167 | -84 | 0 | 0 | 0
+6 | 167 | -84 | 512 | -256 | 210 | -106 | 0 | 0 | 0
+7 | 210 | -106 | 512 | -256 | 248 | -125 | 0 | 0 | 0
+8 | 248 | -125 | 512 | -256 | 281 | -141 | 0 | 0 | 0
+9 | 281 | -141 | 512 | -256 | 310 | -155 | 0 | 0 | 0
+x by step: [-256, -160, -76, -2, 62, 118, 167, 210, 248, 281, 310]
+classification: [(3, 'CONFIRMED_CROSSING')]
+
+=== EXP4: pure-hold invariance (0/1/15 holds), with encounters ===
+holds=0: final z=[315, -208] T=[[-9, 6], [-4, 4]] W=0 identical_to_0_holds=True
+holds=1: final z=[315, -208] T=[[-9, 6], [-4, 4]] W=0 identical_to_0_holds=True
+holds=15: final z=[315, -208] T=[[-9, 6], [-4, 4]] W=0 identical_to_0_holds=True
+
+=== EXP5: same encounter stream, alternative readings diverge? (exercise T, clip, rounding) ===
+round=half_away: final z=[315, -208] T=[[-9, 5], [-5, 4]] differs_at_steps=[4, 5, 6, 7, 8, 9]
+round=floor: final z=[311, -211] T=[[-13, -1], [-9, 1]] differs_at_steps=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+round=trunc: final z=[312, -207] T=[[-9, 4], [-3, 2]] differs_at_steps=[2, 3, 4, 5, 6, 7, 8, 9]
+sat_each_add=False: final z=[315, -208] T=[[-9, 6], [-4, 4]] differs_at_steps=[]
+outer_single_round=True: final z=[315, -208] T=[[-9, 6], [-4, 4]] differs_at_steps=[]
+M_uses_T_next=True: final z=[314, -208] T=[[-9, 6], [-4, 4]] differs_at_steps=[9]
+sat_diff=True: final z=[315, -208] T=[[-9, 6], [-4, 4]] differs_at_steps=[]
+default final: [315, -208] [[-9, 6], [-4, 4]]
+
+=== EXP6: saturation-order divergence, minimal case ===
+sat_diff=False: M=1024 x_after=-747
+sat_diff=True: M=1024 x_after=-872
+sat_each_add=True: P+E -> M_x=0
+sat_each_add=False: P+E -> M_x=1024
+
+=== EXP7: crossing classifier edge cases (spec 5.6) ===
+through_zero [-5, 0, 5, 9, 12] [(0, 'UNKNOWN_CROSSING'), (1, 'UNKNOWN_CROSSING')]
+oscillate [-5, 5, -3, -4, -6] [(0, 'OSCILLATION_NO_CONFIRMED_CROSSING'), (1, 'CONFIRMED_CROSSING')]
+zero_in_confirm_window [-5, 5, 0, 7, 8] [(0, 'AMBIGUOUS_ZERO_IN_WINDOW(spec silent)'), (1, 'UNKNOWN_CROSSING'), (2, 'UNKNOWN_CROSSING')]
+recross_immediately_after_confirm [-5, 5, 6, 7, -1, -2, -3] [(0, 'CONFIRMED_CROSSING'), (3, 'CONFIRMED_CROSSING')]
+
+=== EXP8: ties actually hit in the golden trace (where rounding mode matters) ===
+exact .5 ties on (M-z)/8: [(2, 'x', 196, 24.5), (3, 'x', 172, 21.5), (6, 'y', -172, -21.5)]
+
+=== EXP9: outer-product double rounding vs single rounding, minimal case ===
+outer_single_round=False: T_next=[[0, 0], [0, 0]]
+outer_single_round=True: T_next=[[1, 0], [0, 0]]
+
+=== EXP10: gate refusal at the default-z0 crossing (spec 5.6/2.8 do not say) ===
+A0=REFUSE and grace/gate PENDING. At t=3 the candidate x: -2 -> 62 must be 'staged, not committed'.
+Reading R1 (gate blocks the ordinary state): z stays at (-2,1) and every later step re-proposes the same crossing -> frozen organism.
+Reading R2 (gate blocks only the J_F deposit): z crosses, J_F empty. Spec 1.5 'disjoint write sets' suggests R2; 5.6 'checks admissibility before committing candidate state' suggests R1.
+R1 trace (t, committed x, refused candidate x): [(3, -2, 62), (4, -2, 62), (5, -2, 62), (6, -2, 62), (7, -2, 62), (8, -2, 62), (9, -2, 62)]

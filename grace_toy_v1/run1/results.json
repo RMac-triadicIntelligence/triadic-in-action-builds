@@ -1,0 +1,858 @@
+{
+ "E1": {
+  "fill": [
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 15,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 17
+    },
+    "median_t": 5.67,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 3,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 29
+    },
+    "median_t": 7.845,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 3,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 29
+    },
+    "median_t": 17.795,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 1,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 31
+    },
+    "median_t": 41.28,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    "median_t": 93.075,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 1,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 31
+    },
+    "median_t": 228.67000000000002,
+    "median_t_ready": 0.0,
+    "n": 32
+   }
+  ],
+  "lower": [
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 5.83,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 7.390000000000001,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 17.385,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 42.415,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 95.605,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "lower",
+    "crossed": 32,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 32,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 222.505,
+    "median_t_ready": 0.0,
+    "n": 32
+   }
+  ],
+  "none": [
+   {
+    "arm": "none",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 32,
+     "OWN_FILLED": 0
+    },
+    "median_t": 6.055,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 32,
+     "OWN_FILLED": 0
+    },
+    "median_t": 9.57,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 30,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 30,
+     "OWN_FILLED": 0
+    },
+    "median_t": 94.69500000000001,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 0.0,
+    "n": 32
+   }
+  ],
+  "nudge": [
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 1,
+     "LOWERED": 0,
+     "OWN": 31,
+     "OWN_FILLED": 0
+    },
+    "median_t": 6.055,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 15,
+     "LOWERED": 0,
+     "OWN": 17,
+     "OWN_FILLED": 0
+    },
+    "median_t": 9.57,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 31,
+     "LOWERED": 0,
+     "OWN": 1,
+     "OWN_FILLED": 0
+    },
+    "median_t": 13.08,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 32,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 13.615,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 32,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 13.54,
+    "median_t_ready": 0.0,
+    "n": 32
+   },
+   {
+    "arm": "nudge",
+    "crossed": 32,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 32,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": 13.105,
+    "median_t_ready": 0.0,
+    "n": 32
+   }
+  ]
+ },
+ "E2_drift_probe": {
+  "1.0": {
+   "control": {
+    "measured": -0.6667168725629846,
+    "se": 0.024723179401606586
+   },
+   "keel": {
+    "measured": -1.290498552098573,
+    "se": 0.024561339544210897
+   },
+   "landscape_force": -1.2679491924311228,
+   "x0": -0.3660254037844387
+  },
+  "4.0": {
+   "control": {
+    "measured": -2.5686406612096655,
+    "se": 0.024723179401606586
+   },
+   "keel": {
+    "measured": -5.094346129391941,
+    "se": 0.024561339544210897
+   },
+   "landscape_force": -5.071796769724491,
+   "x0": -0.3660254037844387
+  }
+ },
+ "E3": {
+  "fill": [
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    "median_t": 5.045,
+    "median_t_ready": 107.12,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    "median_t": 6.21,
+    "median_t_ready": 185.08999999999997,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    "median_t": 20.625000000000004,
+    "median_t_ready": 241.685,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    "median_t": 39.33,
+    "median_t_ready": 283.245,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 1,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 31
+    },
+    "median_t": 95.06500000000001,
+    "median_t_ready": 119.86500000000001,
+    "n": 32
+   },
+   {
+    "arm": "fill",
+    "crossed": 32,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 2,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 30
+    },
+    "median_t": 214.91500000000002,
+    "median_t_ready": 146.67,
+    "n": 32
+   }
+  ],
+  "none": [
+   {
+    "arm": "none",
+    "crossed": 32,
+    "h": 0.1,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 32,
+     "OWN_FILLED": 0
+    },
+    "median_t": 5.93,
+    "median_t_ready": 106.17500000000001,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 32,
+    "h": 0.25,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 32,
+     "OWN_FILLED": 0
+    },
+    "median_t": 6.84,
+    "median_t_ready": 182.54,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 32,
+    "h": 0.5,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 32,
+     "OWN_FILLED": 0
+    },
+    "median_t": 91.2,
+    "median_t_ready": 223.31,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 1.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 335.705,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 2.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 523.4449999999999,
+    "n": 32
+   },
+   {
+    "arm": "none",
+    "crossed": 0,
+    "h": 4.0,
+    "kinds": {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 0
+    },
+    "median_t": null,
+    "median_t_ready": 749.8299999999999,
+    "n": 32
+   }
+  ]
+ },
+ "E5_selection_audit": {
+  "lottery": {
+   "flagged": false,
+   "grace_crossings": 5,
+   "grant_rate_dest_minus": 0.225,
+   "grant_rate_dest_plus": 0.305,
+   "share_landing_plus": 0.6,
+   "z": 1.8126893387843293
+  },
+  "steering_grantor": {
+   "flagged": true,
+   "grace_crossings": 4,
+   "grant_rate_dest_minus": 0.0,
+   "grant_rate_dest_plus": 0.62,
+   "share_landing_plus": 1.0,
+   "z": 13.405601251996726
+  }
+ },
+ "E6_cap_sensitivity": {
+  "0.0312": [
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.1
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.25
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.5
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 1.0
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 2.0
+   },
+   {
+    "GRACE": 2,
+    "OWN": 0,
+    "OWN_FILLED": 30,
+    "h": 4.0
+   }
+  ],
+  "0.1250": [
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.1
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.25
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.5
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 1.0
+   },
+   {
+    "GRACE": 1,
+    "OWN": 0,
+    "OWN_FILLED": 31,
+    "h": 2.0
+   },
+   {
+    "GRACE": 2,
+    "OWN": 0,
+    "OWN_FILLED": 30,
+    "h": 4.0
+   }
+  ],
+  "0.2500": [
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.1
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.25
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 0.5
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 1.0
+   },
+   {
+    "GRACE": 0,
+    "OWN": 0,
+    "OWN_FILLED": 32,
+    "h": 2.0
+   },
+   {
+    "GRACE": 2,
+    "OWN": 0,
+    "OWN_FILLED": 30,
+    "h": 4.0
+   }
+  ]
+ },
+ "PREDICTIONS": {
+  "P1_R7_own_crossing": {
+   "PASS": true,
+   "claim": "No grace: the organism crosses on its own at the lowest barrier and fails at the highest",
+   "highest": 0,
+   "lowest": 32,
+   "n": 32
+  },
+  "P2_filling": {
+   "PASS": true,
+   "claim": "Ready + filling: crosses at every barrier weight; median time grows with weight",
+   "crossed": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "median_t": [
+    5.67,
+    7.845,
+    17.795,
+    41.28,
+    93.075,
+    228.67000000000002
+   ]
+  },
+  "P3_nudge": {
+   "PASS": true,
+   "claim": "Ready + one nudge: crosses at every barrier weight; time after the nudge roughly independent of weight (max/min < 2)",
+   "crossed": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "median_t_after_nudge": [
+    -3.9450000000000003,
+    -0.4299999999999997,
+    3.08,
+    3.615,
+    3.539999999999999,
+    3.1050000000000004
+   ]
+  },
+  "P4_unready_nudge": {
+   "PASS": false,
+   "claim": "Unready + nudge: no grace-enabled crossing, and the level rises",
+   "grace_crossings": 0,
+   "level_rose_for_all": false
+  },
+  "P5_fullness_helps_readiness": {
+   "PASS": false,
+   "claim": "Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses",
+   "crossed_fill": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "kinds_fill": [
+    {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    {
+     "GRACE": 0,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 32
+    },
+    {
+     "GRACE": 1,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 31
+    },
+    {
+     "GRACE": 2,
+     "LOWERED": 0,
+     "OWN": 0,
+     "OWN_FILLED": 30
+    }
+   ],
+   "median_t_ready_fill": [
+    107.12,
+    185.08999999999997,
+    241.685,
+    283.245,
+    119.86500000000001,
+    146.67
+   ],
+   "median_t_ready_none": [
+    106.17500000000001,
+    182.54,
+    223.31,
+    335.705,
+    523.4449999999999,
+    749.8299999999999
+   ]
+  },
+  "P6_landscape_unchanged": {
+   "PASS": true,
+   "claim": "Above the water line the receiver feels the unchanged landscape force; the control does not"
+  },
+  "P7_selection_audit": {
+   "PASS": true,
+   "claim": "The population audit passes the lottery grantor and flags the grantor who grants by destination"
+  },
+  "P8_non_harm": {
+   "PASS": false,
+   "claim": "Grace arm never ends with less maturity than its matched no-grace twin",
+   "min_diff": -24.514411773858626,
+   "pairs": 192,
+   "worse": 85
+  },
+  "P_control_crossing_times": {
+   "claim": "Context, not a pass/fail test: the lowered-barrier control also crosses everywhere on a similar clock, so crossing times alone cannot separate it from filling",
+   "median_t_fill": [
+    5.67,
+    7.845,
+    17.795,
+    41.28,
+    93.075,
+    228.67000000000002
+   ],
+   "median_t_lower": [
+    5.83,
+    7.390000000000001,
+    17.385,
+    42.415,
+    95.605,
+    222.505
+   ]
+  }
+ },
+ "params": {
+  "DT": 0.01,
+  "G": 0.02,
+  "H_SET": [
+   0.1,
+   0.25,
+   0.5,
+   1.0,
+   2.0,
+   4.0
+  ],
+  "KAPPA": 1.0,
+  "MARGIN": 0.125,
+  "MU": 0.3,
+  "NUDGE_FILL": 0.1,
+  "N_PER_H": 32,
+  "SEED": 20261109,
+  "SIGMA": 0.35,
+  "THETA": 30.0,
+  "X_CONFIRM": 0.5
+ }
+}

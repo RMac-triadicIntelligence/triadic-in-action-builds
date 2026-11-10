@@ -1,0 +1,213 @@
+{
+ "B1 plenty, rain on half": {
+  "members": 90000,
+  "want_by_window": [
+   0.4367,
+   0.3954,
+   0.3688,
+   0.3475,
+   "...",
+   0.1463,
+   0.1387,
+   0.1314
+  ],
+  "want_last_window": 0.1314,
+  "worst_member_unmet_last_window": 0.86,
+  "share_missing_over_half_last_window": 0.1325,
+  "unmet_by_hops_from_rain": {
+   "0": 0.0,
+   "5": 0.0,
+   "10": 0.0,
+   "20": 0.0,
+   "40": 0.0,
+   "74": 0.737
+  },
+  "unmet_wet_half": 0.0
+ },
+ "B2 plenty, patches": {
+  "members": 90000,
+  "want_by_window": [
+   0.0106,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "want_last_window": 0.0,
+  "worst_member_unmet_last_window": 0.0,
+  "share_missing_over_half_last_window": 0.0
+ },
+ "B3 fists 10%, rain on half": {
+  "members": 90000,
+  "want_by_window": [
+   0.4726,
+   0.4717,
+   0.4717,
+   0.4718,
+   "...",
+   0.4718,
+   0.4717,
+   0.4717
+  ],
+  "want_last_window": 0.4717,
+  "worst_member_unmet_last_window": 0.863,
+  "share_missing_over_half_last_window": 0.4859,
+  "unmet_by_hops_from_rain": {
+   "0": 0.016,
+   "5": 0.742,
+   "10": 0.739,
+   "20": 0.739,
+   "40": 0.735,
+   "74": 0.737
+  },
+  "unmet_wet_half": 0.0,
+  "unmet_among_open_hands": 0.3607
+ },
+ "B3b fists 10%, patches": {
+  "members": 90000,
+  "want_by_window": [
+   0.1071,
+   0.0983,
+   0.0983,
+   0.098,
+   0.0983,
+   0.0983,
+   0.0984,
+   0.0983
+  ],
+  "want_last_window": 0.0983,
+  "worst_member_unmet_last_window": 0.94,
+  "share_missing_over_half_last_window": 0.0645,
+  "unmet_among_open_hands": 0.0674
+ },
+ "B3c fists 30%, patches": {
+  "members": 90000,
+  "want_by_window": [
+   0.309,
+   0.3044,
+   0.3043,
+   0.3042,
+   0.3044,
+   0.3043,
+   0.3043,
+   0.3043
+  ],
+  "want_last_window": 0.3043,
+  "worst_member_unmet_last_window": 0.943,
+  "share_missing_over_half_last_window": 0.2561,
+  "unmet_among_open_hands": 0.241
+ },
+ "B4 leak 5%, rain on half": {
+  "members": 90000,
+  "want_by_window": [
+   0.4705,
+   0.4696,
+   0.4696,
+   0.4696,
+   "...",
+   0.4696,
+   0.4696,
+   0.4696
+  ],
+  "want_last_window": 0.4696,
+  "worst_member_unmet_last_window": 0.863,
+  "share_missing_over_half_last_window": 0.4839,
+  "unmet_by_hops_from_rain": {
+   "0": 0.0,
+   "5": 0.742,
+   "10": 0.739,
+   "20": 0.739,
+   "40": 0.735,
+   "74": 0.737
+  },
+  "unmet_wet_half": 0.0
+ },
+ "B5 leak 5%, patches": {
+  "members": 90000,
+  "want_by_window": [
+   0.0607,
+   0.0516,
+   0.0516,
+   0.0514,
+   0.0517,
+   0.0517,
+   0.0517,
+   0.0517
+  ],
+  "want_last_window": 0.0517,
+  "worst_member_unmet_last_window": 0.938,
+  "share_missing_over_half_last_window": 0.0287
+ },
+ "B6 scarcity 0.8x, rain on half": {
+  "members": 90000,
+  "want_by_window": [
+   0.4786,
+   0.4586,
+   0.4464,
+   0.4367,
+   "...",
+   0.3451,
+   0.3421,
+   0.3389
+  ],
+  "want_last_window": 0.3389,
+  "worst_member_unmet_last_window": 0.916,
+  "share_missing_over_half_last_window": 0.3384,
+  "unmet_by_hops_from_rain": {
+   "0": 0.0,
+   "5": 0.0,
+   "10": 0.0,
+   "20": 0.0,
+   "40": 0.837,
+   "74": 0.838
+  },
+  "unmet_wet_half": 0.0
+ },
+ "B6b scarcity 0.8x, patches": {
+  "members": 90000,
+  "want_by_window": [
+   0.2667,
+   0.257,
+   0.2568,
+   0.2565,
+   0.2565,
+   0.2568,
+   0.2567,
+   0.2569
+  ],
+  "want_last_window": 0.2569,
+  "worst_member_unmet_last_window": 0.962,
+  "share_missing_over_half_last_window": 0.1743
+ },
+ "all rain on one member": {
+  "members": 90000,
+  "want_by_window": [
+   0.9562,
+   0.8901,
+   0.8395,
+   0.7962,
+   "...",
+   0.3484,
+   0.3325,
+   0.317
+  ],
+  "want_last_window": 0.317,
+  "worst_member_unmet_last_window": 1.0,
+  "share_missing_over_half_last_window": 0.3141
+ },
+ "B7 one million members, plenty, patches": {
+  "members": 1000000,
+  "want_by_window": [
+   0.0105,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "want_last_window": 0.0,
+  "worst_member_unmet_last_window": 0.0,
+  "share_missing_over_half_last_window": 0.0
+ }
+}

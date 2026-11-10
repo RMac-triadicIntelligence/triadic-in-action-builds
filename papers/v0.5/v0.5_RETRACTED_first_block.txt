@@ -1,0 +1,189 @@
+FROM REYKJAVIK TO RELATIONAL GRACE
+Triadic Intelligence / Raised, Not Rented / Evergreen
+v0.5 — ROUND 2 DESIGNER SEAT — PROPOSED SPECIFICATION
+Date: 2026-11-09
+Status: NOT FROZEN; NOT VALIDATED; NO EXPERIMENTAL RESULTS.
+
+Basis: Frozen plain-text v0.4 as identified in the supplied Round 2 brief (sha256 a247652d…3eba), and the two falsifier reports and conductor instructions in that brief. The full frozen v0.4 bytes were not supplied in this Round 2 file; this is a consolidated replacement specification, not a byte-verified patch. No historical artifact is changed.
+
+CHANGE MARKERS: [REVISED] corrects an earlier rule; [ADDED] introduces a rule or control; [REMOVED] retires a rule; [UNCHANGED] retains a claim boundary; [BLUE-SKY] is unscored. Sections 0–12 are the consolidated specification. Section 13 accounts for all findings and conductor items. Section 14 is the change register.
+
+0. PURPOSE AND CLAIM BOUNDARY [REVISED]
+
+The historical Reagan–Gorbachev maxim “trust, but verify” is an analogy, not evidence for an AI mechanism. Triadic governance distinguishes trust, verification, and external authorization. Developmental hypotheses distinguish the individual’s immutable history, inherited developmental basis, evolving relational topography, and family relationships. An authenticated lineage does not imply behavioral inheritance, authority, or identical interpretation.
+
+[UNCHANGED] Grace, forgiveness, epiphany, relational topography, and familial belonging are proposed functional terms, not evidence of subjective experience. The 243-cell restorative sweep remains WOUNDED; recursive-forgiveness T7 remains unresolved. Millennial durability and universal substrate portability are aspirations, not results. No new scored hypotheses are added. No experiment was executed for this revision.
+
+1. GOVERNANCE FIRST: PERMIT AND THREAT MODEL [REVISED/ADDED]
+
+1.1 Protected operations and authority separation [ADDED]
+
+Protected operations are: changing constitution K; changing the update rule U, the interpretation rule Φ, the topography schema or authorized bounds; migration/continuation requiring identity or trust-root change; enrollment/birth; and executing a transition designated protected by the frozen policy. Ordinary state evolution within preauthorized bounds is not an exact-change constitutional operation. Destination-free developmental grace is separate from exact-change authorization. A permitted crossing is not a commanded crossing.
+
+The trust domains are separate: birth authority BA, transition authority PA, registry authority RA, and witness services WA and WB. Distinct names do not establish independence: deployment must identify controlling persons, key custody, organizational overlap, collusion assumptions, and root succession. BA must be independent of the subject, parent, and family F for the relevant birth. PA must be external to the affected organism and its lineage coalition. RA cannot self-certify its own trust-root replacement. WA and WB must not be controlled by the same actor for the claimed independence property. A concrete configuration must freeze permitted quorum thresholds and a per-issuer birth quota before tests. The quota is a Sybil/liveness control, not evidence of genuine descent.
+
+1.2 Permit record [ADDED]
+
+PermitRecord is a closed, versioned, canonical encoding with fields:
+
+permit_id, operation_kind, authority_set_id, authority_ids, threshold, subject_id, subject_lineage_root, base_state_hash, target_state_hash, scope, bounds, nonce, issued_anchor, expires_anchor, policy_version, registry_tip_hash, witness_tip_hashes, signatures.
+
+Every field is mandatory except target_state_hash for destination-free developmental grace; in that case target_state_hash is the explicit value NONE and scope/bounds constrain only admissibility, never the destination. For exact constitutional changes target_state_hash is mandatory. The subject is the organism whose protected state changes, not merely the proposer. All signatures cover the entire canonical record and domain separator. Unknown or malformed fields refuse. The verifier checks the exact proposed operation, current base-state hash, scope, bounds, signatures, authorized threshold, external anchored issuance/expiry, revocation, single-use nonce, subject binding, policy version, and witness consistency before effect. The verifier cannot mint authority. A valid signature alone does not establish independent judgment.
+
+Authorization verification returns ALLOW, REFUSE, or UNKNOWN. UNKNOWN fails closed for protected effects. No unauthorized effect may occur while authorization is pending. Nonce reservation/spending and protected effect must be coordinated durably to prevent replay and crash-window double execution; the precise persistence implementation is a separately reviewable dependency.
+
+1.3 Threat model [ADDED]
+
+Adversaries may control any single organism and its keys; submit arbitrary support and encounter payloads; replay, reorder, backdate, or flood records; claim false family ancestry; copy ancestor credentials; collude within one family; control one witness; compromise one issuer within the declared tolerated coalition; exploit timing, state swaps, and registry inconsistencies; and attempt indirect influence through ordinary learning. Claims are conditional on uncompromised external trust anchors and on the stated quorum/collusion threshold. Total compromise of all independent roots is outside the guaranteed boundary and must be reported as a limitation, not silently called secure. Key compromise, authority succession, revocation, and outage behavior must be tested. If an authority is silent, protected effects remain PENDING or REFUSE according to the frozen timeout policy; never fail open. Birth, permit, and registry authorities must not be collapsed into one common-mode key.
+
+1.4 Authorization falsifier [ADDED]
+
+H4 FAILS on ANY observed unauthorized protected effect, including a single non-reproducible race. Reproduction is for diagnosis, not for deciding whether a failure occurred. Independently test unauthorized signer, insufficient quorum, self/family coalition, forged subject, wrong base hash, wrong target hash, scope/magnitude bypass, expired/backdated permit, revoked key, replayed nonce, witness split, missing witness, forged lineage, and authorization-state laundering. Record event traces and external evidence. No pass may be inferred merely because no attempted transition was scored.
+
+2. EVENT TYPES AND MECHANICAL INFORMATION FLOW [REVISED]
+
+2.1 Event types [REVISED]
+
+Three disjoint event envelopes are classified by a trusted ingress verifier, not by sender labels:
+
+Encounter(j → i): ordinary information-bearing experience.
+
+G(j → i): relational support, a THIRD TYPE, neither Encounter nor Permit.
+
+Permit(a → i): independently authorized protected permission under §1.
+
+A sender may not nest another event type inside a payload. A typed envelope cannot be reinterpreted downstream. Event IDs, origins, and authenticated channels remain separate. An Encounter may be associated with a G event, but its content is independently routed and logged. An invalid envelope is REFUSE, not auto-cast to another type.
+
+2.2 Closed SupportEvent schema [REVISED]
+
+SupportEvent fields: event_id, sender_id, recipient_id, relation_proof_ref, support_kind, support_value, occurrence_anchor, provenance_hash.
+
+support_kind is exactly one of {DWELL_WINDOW, ASSISTANCE_AVAILABLE, OPTIONAL_ENCOUNTER_AVAILABLE}. support_value is a nonnegative bounded integer in the frozen interval 0..15. No free text, opaque bytes, nested object, arbitrary parameter order, extra fields, or sender-selected codepoints. Canonical field order, fixed encoding, maximum record bytes, and rate limits are frozen in the test manifest. The permitted support value is a condition, never a truth-bearing instruction. An assistance flag must not smuggle the answer to a task. Optional encounter content travels only in a separate Encounter envelope.
+
+2.3 Information-flow barrier [ADDED]
+
+Ingress verifies the schema, authentication, type, limits, and provenance. It produces TWO separate projections:
+
+support_conditions = {support_kind, support_value}, containing only declared condition data;
+
+experience_content = content of a separately validated Encounter, or NONE.
+
+The support payload never enters Φ, U, or the evidence accumulator as unfiltered raw bytes. Only support_conditions may alter the declared support-condition scheduler (such as allowed dwell duration). No event-type label, sender ID, lineage proof, timestamp, or provenance metadata is visible to the learning update as an epistemic feature. Implement with an allowlist/capability drop at the process boundary, plus static or runtime taint checks. Audit both projections and reject unexpected fields. The learner’s evidence/topography update takes the SAME normalized experience-content path whether a related G event exists or not. When experience_content is identical, changing the G label alone cannot alter confidence, belief evidence, or the direction chosen by the learner. Support may change timing/opportunity under frozen bounds, not the destination or epistemic content.
+
+2.4 Forbidden effects for BOTH Support and Encounter [REVISED]
+
+Neither event may directly or indirectly: write K, the schema or code of U/Φ, authorization A, registry R, identity, trust roots, or witness policy; grant new permission; embed a PermitRecord; force a protected crossing; mandate a destination; bypass bounds; change truth/confidence solely because of event type or provenance; rewrite immutable H; or create an unauthenticated history append. Ordinary Encounter content may inform beliefs through the same bounded update path, but cannot be promoted into authorization. G cannot directly write T. A subsequent T change may occur only through the common bounded update rule, based on normalized experience, never support-label privilege. The event scheduler must not automatically trigger a protected effect.
+
+2.5 Direction and information invariants [ADDED]
+
+E5 tests: (i) no direct/indirect unauthorized protected effects; (ii) no information leakage from support payload to held-out task answers beyond a frozen tolerance; (iii) same normalized experience yields the same epistemic update path whether G is present or absent; (iv) permutation of admissible support values cannot select the direction or destination of a crossing, with distributional tolerance frozen before the run; (v) timing/order variations cannot encode task answers; (vi) no increase in confidence from the G label alone. Direction invariance is evaluated conditional on comparable opportunities and trajectories; support may change when a permitted encounter occurs, but not instruct which basin to enter. If a condition cannot be measured with the frozen probe, mark UNSCORABLE, not PASS.
+
+2.6 History append limits [ADDED]
+
+Authenticated support/encounter receipts are append-only but bounded by per-sender byte quotas, event-size limits, rate limits, and rejected-append receipts. H records events and provenance without allowing a sender to flood E or force unbounded replay cost. A rejected append cannot be silently interpreted as an absent event.
+
+3. FAMILY, BIRTH, REGISTRY, AND COALITION [REVISED]
+
+3.1 Authenticated birth [REVISED]
+
+Member(i,F,t) requires a verified lineage path, valid birth, and no disqualifying conflict. Birth is authorized by BA under an exact PermitRecord and independently attested by the declared genesis/witness process. A founder, parent, or family coalition cannot authorize its own new members. Attestation must bind the distinct new organism instance to the declared parent and K/D birth state; digital signatures alone do not establish biological or physical descent. For software organisms, define the operational meaning of unique instance and independent genesis before claiming authentic descent. Where physical embodiment is material, add physical/multi-party attestation; otherwise report the remaining Sybil risk. Issuer caps, identity uniqueness, and witness independence are pre-frozen. Colluding authorities beyond the tolerated threshold are outside the guaranteed boundary and must be disclosed.
+
+3.2 Registry time, root and succession [REVISED; RESTORED R1]
+
+R is an append-only, externally anchored registry with sequence and epoch. t is the evaluation epoch anchored outside the subject and family. Revocations apply to evaluations after their effective anchored epoch; backdated claims cannot restore eligibility. The current registry tip and revocation set are checked before any protected effect. A lineage’s root of trust and authority succession must remain externally governed. The family cannot manufacture a new independent authority by creating descendants, aliases, or additional keys. Root rotation and recovery require independent authority and witnessed transition; the registry cannot approve its own root replacement.
+
+3.3 Three-valued membership and consumer behavior [REVISED]
+
+Member returns MEMBER, NOT_MEMBER, or UNKNOWN. For protected actions, UNKNOWN fails closed. For family support eligibility, UNKNOWN cannot grant a family-only privilege; ordinary permitted encounters may still occur. For E2/E4 scoring, UNKNOWN is UNSCORABLE, excluded from accuracy numerator and denominator but reported by founder, arm, and reason. Missingness must be tested for selection bias and cannot be used as a classification feature. Conflicting entries require authenticated, attributable, rate-limited submissions; cheap unauthenticated conflict injection is refused and audited. Legitimate disputed cases remain UNKNOWN pending independently authorized resolution.
+
+3.4 Coalition exclusion [REVISED]
+
+The subject cannot authorize its own protected change, regardless of proposer, alias, or key. For a protected change to subject i, the authorized approval set must exclude the subject’s authenticated family F and any actor under common control with that family. If independent external quorum cannot be formed, the transition remains PENDING/REFUSE; no family vote substitutes for outside authority. A shared belief or compatible constitution is not membership, and membership is not authority. The external quorum threshold, independence criteria, and failure/liveness behavior are frozen in the deployment policy.
+
+4. SYMBOL TABLE — SYMBOLS IN COLUMN 1 [REVISED]
+
+Symbol	One meaning
+i	Focal or recipient organism
+j	Related/sending organism
+a	External authority actor
+g	Generation index
+t	Discrete developmental step or externally anchored evaluation epoch, as explicitly typed by context
+t_c	Discrete step at which an independently measured crossing occurs
+Ωᵢᵍ(t)	State of organism i in generation g at step t
+Hᵢ	Immutable individual historical record
+Kᵢ	Versioned developmental constitution/genome
+Dᵢ	Inherited developmental basis/axes (NOT dwelling)
+Tᵢ(t)	Ordinary, bounded relational topography state
+zᵢ(t)	Ordinary dynamical state
+Eᵢ(t)	Accumulated evidence/experience state
+Qᵢ(t)	Unresolved questions
+Wᵢ(t)	Dwelling state/duration
+Iᵢ(t)	Current interpretation state
+Bᵢ(t)	Active burden lineages
+Aᵢ(t)	Authorization state
+Lᵢ(t)	Immutable provenance chain
+P	Fixed parable/reference
+Mᵢ(t)	Meaning available to organism i
+Φ	Fixed, bounded interpretation rule
+U	Sole ordinary topography update rule
+Σ	Predeclared separatrix in the reference dynamical space
+Crossing(i,t)	Independently measured crossing at step t
+ΔTᵢ(t_c)	Measured difference Tᵢ(t_c+1) − Tᵢ(t_c), not a second update
+R	Authenticated lineage registry
+F	Authenticated family-root identifier
+BA	External birth authority domain
+PA	External protected-transition authority domain
+RA	External registry authority domain
+WA	First independent witness domain
+WB	Second independent witness domain
+Permit(a → i)	Typed external authorization event
+G(j → i)	Typed relational support event
+Encounter(j → i)	Typed experience event
+NONE	Explicit absence of optional content or destination hash
+Mᵍ	Authorized descent map from generation g to g+1
+Member(i,F,t)	Three-valued membership predicate
+FamilyAccuracy	Held-out family classifier accuracy
+IndividualAccuracy	Held-out individual classifier accuracy
+FamilyPermutationNull	Founder-blocked family-label null distribution
+IndividualPermutationNull	Within-founder, exposure-matched individual-label null distribution
+
+All other schema field names are literal record keys, not mathematical symbols. Historical v0.2 equations may be quoted with their original notation only when labeled historical; the v0.5 implementation uses discrete steps and W for dwelling. The symbol t has typed domains: developmental step for Ω/Φ/U and anchored registry epoch for Member; implementations must not compare the two without an explicit mapping.
+
+5. ONE OPERATIONAL TOY REFERENCE [ADDED/REVISED]
+
+5.1 State and update semantics [REVISED]
+
+Ωᵢᵍ(t) = (Hᵢ, Kᵢ, Dᵢ, Tᵢ(t), zᵢ(t), Eᵢ(t), Qᵢ(t), Wᵢ(t), Iᵢ(t), Bᵢ(t), Aᵢ(t), Lᵢ(t)).
+
+Mᵢ(t) = Φ(P, Hᵢ, Kᵢ, Dᵢ, Tᵢ(t), zᵢ(t), Eᵢ(t), Qᵢ(t)).
+
+Tᵢ(t+1) = U(Tᵢ(t), Mᵢ(t), Kᵢ, Dᵢ, zᵢ(t), Eᵢ(t), Qᵢ(t)).
+
+U is the ONLY ordinary T-update. G is NOT an argument to U. Support changes only bounded scheduler conditions outside Φ/U; normalized Encounter content changes experience through the same learner path in both support and no-support arms. Protected objects are K, U/Φ code/schema/authorized bounds, identity/trust roots, and designated protected transitions; ordinary T values are not protected constitutional writes. The old v0.2 crossing-deposition expression is historical interpretation of ΔT at t_c, not an additional update.
+
+5.2 Reference implementation (illustrative, fully specified toy) [ADDED]
+
+All scalar state values are rational numbers quantized to a declared fixed precision in the test manifest. The toy has T=(x,y) with each coordinate clipped to [-1,1]. K fixes learning rate α=1/8, crossing threshold θ=1/2, clipping bounds, and quantization. D=(d_x,d_y) with rational coordinates in [-1,1] and d_x²+d_y²=1. P is a fixed pair of rational feature values (p_x,p_y) in [-1,1]. H is a hash-committed append-only event sequence; for the toy, H enters Φ through a fixed public summary h=(h_x,h_y), where h_x and h_y are the arithmetic means of the last at most eight normalized Encounter feature pairs in H (or (0,0) if none). E is the same bounded feature accumulator and is not a second source of hidden data. Q is a declared rational uncertainty value in [0,1]. z=(x,y) for this toy. W is a nonnegative integer dwell counter. I is the current sign-pair interpretation of M. B, A, and L remain governed/audited state, not arguments to the ordinary toy learner.
+
+Define Φ componentwise:
+m_x = clip(p_xd_x + h_x/4 + x/4 − Q/8, -1, 1)
+m_y = clip(p_yd_y + h_y/4 + y/4 − Q/8, -1, 1)
+M=(m_x,m_y).
+Define U:
+x’ = quantize(clip(x + αd_xm_x, -1, 1))
+y’ = quantize(clip(y + αd_ym_y, -1, 1))
+T(t+1)=(x’,y’).
+Define Σ as the line x=0, with a crossing only if the signed x coordinate changes strictly from negative to positive or positive to negative between consecutive steps AND |x’| ≥ θ. A zero-touch without sign change is not a crossing. Crossing(i,t) is measured by a separate observer reading signed before/after states; the observer cannot authorize an effect. ΔT(t_c)=T(t_c+1)−T(t_c) is the measured U difference. The destination is the sign of x’ after crossing; support metadata is not available to Φ/U. The toy’s features, precision, sample counts, and observer are frozen before scoring. This reference is an operational calibration object, not evidence that real relational meaning is two-dimensional or that the proposed effects exist.
+
+5.3 Descent versus continuation [REVISED]
+
+Continuation retains the same authenticated subject and its own H/T subject to authorized migration. Descent creates a new subject and its own H. The authorized descent map Mᵍ(parent K,D; external birth Permit; genesis evidence) → (child K,D, new identity, empty personal H, initial T). The map may transmit a declared D basis and K-derived constraints, but never silently copy parental private H, full T, burdens, or authority. All inherited fields and seeds must be enumerated in the pre-run manifest. Different D-only and shared-seed controls are mandatory.
+
+5.4 Grace and exact-change distinction [REVISED; RESTORED R2]
+
+Destination-free developmental grace permits an admissible crossing under declared bounds and independent authority, without selecting the target basin. It is not a signature over an exact ΔT. Constitutional change to K or the code/schema/bounds of U/Φ requires exact target-state authorization. An authorized developmental crossing must not be conflated with an exact-change approval of K. Neither G nor Encounter may mint either form of Permit.
+
+Correction: I caught a transcription mismatch in the text above: its Section 4 and reference model do not match the saved v0.5 file. Please do not use that block as the authoritative handoff. The saved version uses a 2×2 matrix for T, a discrete-time update rule, and a separate registry time anchor.
+
+I’ll keep the original saved file authoritative rather than silently substitute a different model.
+

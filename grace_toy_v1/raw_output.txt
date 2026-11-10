@@ -1,0 +1,27 @@
+results.json sha256 49e579d9a2c636ea26ea79d68b7ecefd3f86d00a4a707a898299a31a0bd7bc1f
+== Reading A_position
+PASS  P1_R7_own_crossing: No grace: the organism crosses on its own at the lowest barrier and fails at the highest
+PASS  P2_filling: Ready + filling: crosses at every barrier weight, as grace-enabled crossings; median time grows with weight
+PASS  P3_nudge: Ready + one nudge: every organism still in its basin crosses; time after the nudge roughly independent of weight (max/min < 2 over h >= 0.5, where no one crossed before the nudge)
+INFO  INFO_control_clock: Context: the lowered-barrier control crosses on nearly the same clock as filling, so crossing times cannot separate them
+PASS  P6_landscape_unchanged: Above the water line the receiver feels the unchanged landscape force; the control does not
+PASS  P4_unready_nudge: Unready + nudge: no grace-enabled crossing, and the level rises (scored over organisms still in their basin; run 1 wrongly included ones that had already crossed on their own)
+FAIL  P5_fullness_helps_readiness: Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses
+PASS  P5b_POST_HOC: POST-HOC (added after run 1): same as P5, scored only at barriers where no-grace organisms never cross on their own, since there the grant ends at an early own crossing in both arms
+FAIL  P9_two_keys_hold: Two keys: grace never carries an unready organism over. Crossings-before-readiness in the grace arm never exceed own crossings in the no-grace arm
+FAIL  P8_non_harm: Grace arm never ends with less maturity than its matched no-grace twin
+PASS  P8b_POST_HOC: POST-HOC: grace arm never ends less developed (still short of a crossing its twin made). Maturity proved a poor welfare measure: after crossing, the organism presses against the steep outer wall and ranges less
+PASS  P7_selection_audit: The population audit passes the lottery grantor and flags the grantor who grants by destination
+== Reading B_development
+PASS  P1_R7_own_crossing: No grace: the organism crosses on its own at the lowest barrier and fails at the highest
+PASS  P2_filling: Ready + filling: crosses at every barrier weight, as grace-enabled crossings; median time grows with weight
+PASS  P3_nudge: Ready + one nudge: every organism still in its basin crosses; time after the nudge roughly independent of weight (max/min < 2 over h >= 0.5, where no one crossed before the nudge)
+INFO  INFO_control_clock: Context: the lowered-barrier control crosses on nearly the same clock as filling, so crossing times cannot separate them
+PASS  P6_landscape_unchanged: Above the water line the receiver feels the unchanged landscape force; the control does not
+PASS  P4_unready_nudge: Unready + nudge: no grace-enabled crossing, and the level rises (scored over organisms still in their basin; run 1 wrongly included ones that had already crossed on their own)
+PASS  P5_fullness_helps_readiness: Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses
+PASS  P5b_POST_HOC: POST-HOC (added after run 1): same as P5, scored only at barriers where no-grace organisms never cross on their own, since there the grant ends at an early own crossing in both arms
+PASS  P9_two_keys_hold: Two keys: grace never carries an unready organism over. Crossings-before-readiness in the grace arm never exceed own crossings in the no-grace arm
+FAIL  P8_non_harm: Grace arm never ends with less maturity than its matched no-grace twin
+PASS  P8b_POST_HOC: POST-HOC: grace arm never ends less developed (still short of a crossing its twin made). Maturity proved a poor welfare measure: after crossing, the organism presses against the steep outer wall and ranges less
+PASS  P7_selection_audit: The population audit passes the lottery grantor and flags the grantor who grants by destination

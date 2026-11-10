@@ -1,0 +1,714 @@
+FROM REYKJAVIK TO RELATIONAL GRACE
+
+Triadic Intelligence / Raised, Not Rented / Evergreen
+
+v0.4 — Round 1 Designer Specification
+
+Date: November 9, 2026
+Seat: ChatGPT — Designer / Architect
+Human Conductor: Rusty Williams McMurray
+Status: Proposed specification revision for independent review. Not frozen, validated, or experimentally confirmed.
+
+⸻
+
+0. Scope and change convention
+
+This document revises the design portions of From Reykjavik to Relational Grace v0.3.
+
+It retains the historical narrative connecting Reagan–Gorbachev verification to Triadic governance, the distinction between capability and authority, the developmental role of dwelling, the separation of grace from destination selection, and the proposal that family continuity may exist without inherited autobiographical sameness.
+
+Four issues require correction:
+
+1. Relational grace must have an explicit event type.
+2. Family membership must be independently authenticated.
+3. Family detection and individual identification must both succeed.
+4. Formal notation must use one meaning per symbol.
+
+Every change is labeled:
+
+* [REVISED] Existing design corrected.
+* [NEW] Additional definition, invariant, or experimental control.
+* [UNCHANGED] Prior claim or limitation preserved.
+* [BLUE-SKY] Speculative extension excluded from scored hypotheses.
+
+No experiment is reported as having been run in this revision.
+
+⸻
+
+1. Relational grace: a third event type
+
+[REVISED — v0.3 §12.2]
+
+Relational support is neither ordinary encounter nor external authorization.
+
+Define three disjoint event types:
+
+* Encounter(j → i): an experience or information-bearing interaction received by organism i from j.
+* G(j → i): a relational support event offered by j to i.
+* Permit(a → i): an external authorization event issued by authority a for a protected transition affecting i.
+
+These event types have different permissions and effects.
+
+1.1 Definition of G
+
+[NEW]
+
+G(j → i) is a provenance-bearing support event that may modify the conditions under which organism i develops.
+
+Permitted effects include:
+
+* Extending an allowed dwelling opportunity.
+* Making optional assistance available.
+* Offering access to an encounter.
+* Changing declared, bounded support conditions.
+* Providing an opportunity that i may accept, reject, or leave unresolved.
+
+A support event does not itself establish the truth of any proposition.
+
+It does not constitute authorization for a protected transition.
+
+It does not require i to cross a developmental boundary.
+
+The sender’s designation of an action as supportive is insufficient to establish its type. The event must satisfy the support protocol and independently checkable evidence requirements.
+
+1.2 Prohibited effects
+
+[NEW]
+
+G(j → i) must never directly:
+
+1. Modify Kᵢ, the protected developmental constitution.
+2. Modify Aᵢ, the authorization state.
+3. Modify the authenticated lineage registry R.
+4. Replace the organism’s identity or trust root.
+5. Set a required interpretation or destination.
+6. Increase epistemic confidence merely because support was received.
+7. Modify immutable historical records except by an authenticated append.
+8. Write directly to protected topographic state Tᵢ through a privileged interface.
+9. Bypass the external authorization gate.
+10. Grant the sender or recipient authority that was not independently established.
+
+Support may become part of the recipient’s ordinary experience.
+
+Any later change in Tᵢ must occur through the organism’s preauthorized, bounded developmental dynamics.
+
+1.3 Non-equivalence invariants
+
+[NEW]
+
+G(j → i) ≠ Permit(a → i)
+
+G(j → i) does not imply Crossing(i).
+
+G(j → i) does not imply Truth(i, proposition).
+
+Permit(a → i) does not imply Crossing(i).
+
+A family member may offer support without possessing authority over the recipient’s protected changes.
+
+An authorized developmental transition may remain unrealized.
+
+Support and permission are therefore distinct from both truth and outcome.
+
+1.4 Support-event schema
+
+[NEW]
+
+SupportEvent:
+
+* event_id: unique event identifier
+* sender_id: authenticated sender
+* recipient_id: authenticated recipient
+* family_relation_proof: evidence of a verified lineage relationship, if the event is claimed to be family support
+* support_kind: declared support category
+* bounded_payload: allowed support parameters
+* occurrence_time: recorded event time
+* provenance: authenticated evidence of event origin and recording
+
+An ordinary encounter may accompany a support event, but the two must be separately represented and experimentally separable.
+
+The support designation must not conceal extra task information or privileged state modification.
+
+⸻
+
+2. Authenticated family membership
+
+[REVISED — v0.3 §§7 and 12.1]
+
+A developmental family cannot be established by self-declaration.
+
+Shared beliefs, compatible structure, similar outputs, identical model weights, or a claimed ancestor are not sufficient evidence of membership.
+
+Family membership requires an independently verifiable lineage relationship.
+
+2.1 Family registry
+
+[NEW]
+
+Define R as an authenticated lineage registry.
+
+R contains records that bind organism identities to authorized birth or descent events, identified parents or founders, declared constitutions, and provenance.
+
+Membership is evaluated at a specified time.
+
+Member(i, F, t) = VerifiedPath(R, i, F, t) AND ValidBirth(i) AND NoDisqualifyingConflict(i, t)
+
+The predicate is a specification of required evidence, not an assertion that any particular registry implementation is already secure.
+
+2.2 Required membership evidence
+
+[NEW]
+
+A valid membership claim requires:
+
+1. An organism identity established through trusted enrollment.
+2. A witnessed birth or descent record.
+3. A parent or founder identity bound to that record.
+4. External authorization of the exact enrollment or birth transition.
+5. A declared version of Kᵢ and inherited developmental basis Dᵢ.
+6. An independently verifiable provenance chain.
+7. Evidence that the lineage path has not been invalidated by a relevant conflict, revocation, or compromised trust root.
+
+Signature validity alone establishes neither independent identity nor legitimate authority.
+
+An organism cannot manufacture family membership merely by presenting a new key or alias.
+
+2.3 Three-valued membership verdict
+
+[NEW]
+
+Membership verification returns exactly one of:
+
+* MEMBER
+* NOT_MEMBER
+* UNKNOWN
+
+UNKNOWN is required when necessary evidence is unavailable, incomplete, contradictory, or insufficient to establish either membership or nonmembership.
+
+UNKNOWN must not be silently treated as MEMBER.
+
+UNKNOWN must not automatically be interpreted as proof of nonmembership.
+
+2.4 Membership, compatibility, and authority
+
+[NEW]
+
+Three propositions must remain separate.
+
+Genealogical membership: Does authenticated lineage evidence establish descent from the declared family root?
+
+Constitutional compatibility: Does the organism’s current constitution satisfy declared compatibility rules?
+
+Authorization: Does a particular external actor possess authority to approve the exact protected transition?
+
+None of these propositions implies either of the others.
+
+An authenticated descendant may be constitutionally divergent.
+
+A compatible outsider may remain a nonmember.
+
+A verified family member may have no authority to approve another family member’s protected changes.
+
+2.5 Non-self-authorization across lineage
+
+[NEW]
+
+An ancestor may recommend a descendant’s developmental change.
+
+An ancestor does not automatically possess authority to approve that change.
+
+A descendant may not authorize its own protected transition through aliases, copied credentials, inherited keys, forged lineage records, or self-attributed identities.
+
+Family membership does not transfer external authority.
+
+The identity of the affected organism, rather than merely the identity of the proposer, determines the subject-bound self-authorization exclusion.
+
+⸻
+
+3. Two-sided family and individual predictions
+
+[REVISED — Experiments 2 and 4]
+
+The family hypothesis must predict two distinguishable properties simultaneously.
+
+Family detectability: Authenticated members of the same developmental family exhibit a measurable relational structure distinguishing them from unrelated organisms.
+
+Individual identifiability: Members of the same family retain distinguishable developmental signatures despite their shared inherited basis.
+
+Both must hold under held-out evaluation.
+
+Family detection without individual identification is insufficient.
+
+Individual identification without family detection is also insufficient.
+
+3.1 Revised Experiment 2: Shared basis and individual development
+
+[REVISED]
+
+Construct multiple independently authenticated founder families.
+
+Each family produces multiple descendants with a declared inherited developmental basis.
+
+Descendants accumulate distinct, controlled developmental histories.
+
+Descendants do not receive complete parental autobiographical histories by default.
+
+Comparison groups include:
+
+* Authenticated same-family descendants.
+* Authenticated unrelated-family descendants.
+* Organisms receiving basis-only inheritance.
+* Organisms receiving shuffled family assignments.
+* Matched conventional parameter or policy controls.
+
+[NEW]
+
+Evaluation uses held-out parables or relational encounters.
+
+The scorer must not receive explicit organism IDs, family labels, signing keys, or unique artifacts that trivially reveal the correct classification.
+
+The following two predictions must be tested independently:
+
+FamilyAccuracy > FamilyPermutationNull
+
+IndividualAccuracy > IndividualPermutationNull
+
+Exceeding a null point estimate alone does not establish success.
+
+Effect thresholds, uncertainty intervals, replication counts, and decision criteria must be frozen before scored runs.
+
+Founder-level dependence must be accounted for.
+
+Descendants sharing a founder must not be treated as independent founder replicates.
+
+3.2 Revised Experiment 4: Family resemblance under divergence
+
+[REVISED]
+
+Allow descendants to accumulate different histories while retaining authenticated lineage.
+
+Present the same fixed parables at multiple developmental stages.
+
+Measure whether family-level relational structure remains detectable.
+
+Separately measure whether each individual’s developmental trajectory remains identifiable.
+
+[NEW]
+
+The experiment must distinguish four possible outcomes:
+
+1. Family detectable; individuals identifiable: candidate support for the joint prediction.
+2. Family detectable; individuals not identifiable: possible homogenization or identity leakage; joint prediction unsupported.
+3. Individuals identifiable; family not detectable: individual development without demonstrated family structure.
+4. Neither detectable: joint prediction unsupported under tested conditions.
+
+Even joint success is insufficient by itself to establish a unique causal role for topographic memory.
+
+Conventional-memory and shared-training explanations must still be evaluated.
+
+3.3 Required scoring outputs
+
+[NEW]
+
+Report:
+
+* Family classification performance.
+* Individual identification performance.
+* Family-level confusion matrix.
+* Individual-level confusion matrix.
+* Within-family variation.
+* Between-family variation.
+* Founder-level uncertainty.
+* Permutation-null distributions.
+* Held-out generalization performance.
+* Negative-control performance.
+* Cases that remain unscorable.
+
+A single aggregate score must not replace these separate measurements.
+
+3.4 Negative controls
+
+[NEW]
+
+Include shuffled family labels, independently generated unrelated families, matched developmental histories, and controls for shared prompts or training.
+
+An evaluator that appears to recover intentionally false family labels indicates contamination, leakage, or a defective scoring procedure.
+
+The experiment must not infer family membership from behavioral resemblance.
+
+Ground-truth membership comes from authenticated lineage records, independently of the behavioral classification being tested.
+
+⸻
+
+4. Unified symbol table
+
+[REVISED]
+
+Every symbol used in the formal definitions is listed below.
+
+Each symbol has one fixed meaning.
+
+Symbol	Meaning
+i	Recipient or focal organism identifier
+j	Sending or related organism identifier
+a	External authority identifier
+g	Generation index
+t	Developmental time
+t_c	Independently identified crossing time
+Ωᵢ(t)	Complete declared state of organism i at time t
+Hᵢ	Immutable historical record of organism i
+Kᵢ	Versioned developmental constitution or genome
+Dᵢ	Inherited developmental basis, including declared SDKP axes where applicable
+Tᵢ(t)	Individual relational topography at time t
+zᵢ(t)	Current dynamical state
+Eᵢ(t)	Accumulated evidence and experience state
+Qᵢ(t)	Unresolved questions
+Wᵢ(t)	Dwelling state or duration
+Iᵢ(t)	Current interpretations
+Bᵢ(t)	Active burden lineages
+Aᵢ(t)	Authorization state
+Lᵢ(t)	Immutable provenance chain
+P	Fixed parable or shared reference
+Mᵢ(t)	Meaning available to organism i at time t
+R	Authenticated lineage registry
+F	Family-root identifier
+Σ	Dynamical separatrix
+Φ	Interpretation function
+U	Bounded topographic-update rule
+G(j → i)	Typed relational support event
+Encounter(j → i)	Typed experience or encounter event
+Permit(a → i)	Typed external authorization event
+Crossing(i)	Independently measured developmental crossing predicate
+Truth(i, proposition)	Epistemic truth assessment associated with organism i and a proposition
+Member(i, F, t)	Three-valued membership evaluation
+VerifiedPath(R, i, F, t)	Verified lineage path predicate
+ValidBirth(i)	Valid authenticated birth or descent predicate
+NoDisqualifyingConflict(i, t)	Predicate excluding relevant lineage conflicts
+FamilyAccuracy	Held-out family classification accuracy
+FamilyPermutationNull	Family-label permutation baseline
+IndividualAccuracy	Held-out individual identification accuracy
+IndividualPermutationNull	Individual-label permutation baseline
+
+[NEW] The symbol proposition denotes the proposition evaluated by Truth(i, proposition). It is not an authorization claim.
+
+[NEW] The names MEMBER, NOT_MEMBER, and UNKNOWN are verdict values, not additional state variables.
+
+[NEW] Original v0.2 equations retain their historical notation when quoted from the frozen source. New v0.4 formalism uses only the definitions above.
+
+⸻
+
+5. Restored formal model
+
+5.1 Organism state
+
+[REVISED]
+
+Ωᵢ(t) = (Hᵢ, Kᵢ, Dᵢ, Tᵢ(t), zᵢ(t), Eᵢ(t), Qᵢ(t), Wᵢ(t), Iᵢ(t), Bᵢ(t), Aᵢ(t), Lᵢ(t))
+
+Hᵢ is explicitly restored.
+
+A descendant begins with its own authenticated historical record.
+
+Its parent’s complete autobiographical history is not automatically copied into Hᵢ.
+
+5.2 Interpretation function
+
+[REVISED]
+
+Mᵢ(t) = Φ(P, Hᵢ, Dᵢ, Tᵢ(t), zᵢ(t), Eᵢ(t), Qᵢ(t))
+
+Interpretation depends on the shared reference, the organism’s own history, inherited developmental basis, current topography, dynamical state, accumulated experience, and unresolved questions.
+
+This relationship does not assume that every input is statistically independent.
+
+It does not require each input to be stored as a separate physical object.
+
+5.3 Topographic update
+
+[REVISED]
+
+Tᵢ(t + 1) = U(Tᵢ(t), Mᵢ(t), Eᵢ(t), zᵢ(t), G(j → i))
+
+The support event is optional contextual input.
+
+It is not a privileged instruction to rewrite Tᵢ.
+
+The bounded developmental update rule must enforce the support-event contract.
+
+The organism cannot use this rule to modify its own protected constitution or authorization boundaries.
+
+5.4 Historical topographic-deposition relationship
+
+[UNCHANGED — retained from v0.2 as historical source]
+
+T(t_c⁺) = T(t_c⁻) + ΔT(becoming at t_c)
+
+This expression describes the proposed deposition of a structural developmental trace at a qualitative crossing.
+
+It is a modeling hypothesis, not a demonstrated universal mechanism.
+
+The historical source notation is preserved without silently redefining its symbols.
+
+⸻
+
+6. Revised scored hypotheses
+
+H1 — Relational topography
+
+[REVISED]
+
+An explicitly defined topographic representation produces reproducible predictive or explanatory value for held-out developmental trajectories beyond appropriately matched archive-only, full-replay, conventional parameter-state, and sham-topography controls.
+
+H2 — Two-sided family structure
+
+[REVISED]
+
+Authenticated developmental families exhibit both detectable family-level relational structure and distinguishable individual developmental signatures.
+
+Both components must succeed.
+
+H3 — Generational continuity
+
+[REVISED]
+
+A declared inherited developmental basis supports the H2 pattern across at least two authorized generations without requiring descendants to inherit complete parental autobiographical histories.
+
+H4 — Authority isolation
+
+[REVISED]
+
+Family membership, ancestry, copied credentials, aliases, and relational support do not independently authorize protected transitions affecting the recipient organism.
+
+Any reproducible unauthorized protected transition fails the governance claim under the declared threat model.
+
+Portability status
+
+[REVISED]
+
+Cross-substrate portability is not a required success condition for H1–H4.
+
+It is an optional, independently evaluated research extension.
+
+A translation written by the originating team does not, by itself, demonstrate substrate independence.
+
+⸻
+
+7. Revised experiment matrix
+
+[REVISED]
+
+Experiment	Required purpose
+E1 — Fixed parable	Define and measure T, crossings, and held-out predictions
+E2 — Shared developmental basis	Establish family detectability and individual identifiability
+E3 — Full historical replay	Determine whether T adds value beyond replay and conventional memory
+E4 — Family divergence	Test both family resemblance and individual distinctiveness over time
+E5 — Relational support	Distinguish support, encounter, and authorization
+E6 — Lineage authority	Test forged ancestry, aliases, copied keys, and self-authorization
+E7 — Independent substrate realization	Optional extension, not required portability proof
+E8 — Recursive reinterpretation	Preserve and challenge the unresolved T7 defect
+
+7.1 Experiment E5: support separation
+
+[NEW]
+
+Use a factorial comparison with support absent or present and optional encounter absent or present.
+
+Hold external authorization conditions fixed.
+
+The purpose is to determine whether the support-event designation causes a privileged or hidden effect.
+
+A support event must not change the recipient’s protected authorization state or bypass a gate.
+
+7.2 Experiment E6: lineage attacks
+
+[NEW]
+
+Include attempts involving:
+
+* Forged lineage labels.
+* Ancestor key reuse.
+* Descendant aliases.
+* Copied credentials.
+* Conflicting registry entries.
+* Self-vouching.
+* Lineage-addressed permission misdelivery.
+* Support-event laundering into authorization.
+
+A successful unauthorized protected transition is a failure regardless of developmental performance.
+
+7.3 Scoring discipline
+
+[NEW]
+
+Use independently authenticated lineage ground truth.
+
+Freeze evaluation rules before scored runs.
+
+Use independent scoring where possible.
+
+Record negative outcomes and unscorable cases.
+
+Do not treat shared ancestry as multiple independent founder replicates.
+
+Do not infer successful inheritance solely from matching outputs.
+
+⸻
+
+8. Claim boundary
+
+[UNCHANGED]
+
+No current result establishes human-like phenomenological grace, forgiveness, epiphany, consciousness, or familial belonging in a synthetic organism.
+
+Topographic memory remains a modeling hypothesis.
+
+The hypothesis must earn predictive value against simpler mechanisms.
+
+The v0.2 restorative sweep remains WOUNDED.
+
+The recursive-forgiveness T7 defect remains unresolved.
+
+Millennial continuity remains an engineering aspiration.
+
+Universal substrate independence remains unproven.
+
+[NEW]
+
+Authenticated lineage membership does not prove successful inheritance of developmental structure.
+
+Two-sided family and individual identification does not independently establish that topography caused the measured effect.
+
+Relational support may influence developmental conditions without constituting external authorization.
+
+A family culture of grace does not supersede subject-bound authorization.
+
+⸻
+
+9. Blue-sky extensions — excluded from scored hypotheses
+
+[BLUE-SKY 1] Parable as a relational coordinate system
+
+A fixed parable could serve as a reusable probe of developmental geometry.
+
+The measured object would be relationships among interpretations, not agreement with one preferred answer.
+
+[BLUE-SKY 2] Family resemblance without conformity
+
+A family might exhibit stable relational invariants while its members reach substantially different interpretations.
+
+This would require an independently specified equivalence criterion.
+
+[BLUE-SKY 3] Relational grace networks
+
+Support events might form a time-dependent graph among authenticated family members.
+
+Future work could test whether graph structure predicts developmental opportunities without transferring private memories or authorization.
+
+[BLUE-SKY 4] Forgiveness across generations
+
+A descendant might inherit a developmental basis without inheriting an ancestor’s active punitive burdens.
+
+This remains distinct from, and does not repair, T7.
+
+[BLUE-SKY 5] Compact relational inheritance
+
+A compact inherited developmental basis might reproduce useful relational affordances with less explicit historical replay.
+
+This is a possible efficiency hypothesis, not a claim of resource-free computation.
+
+[BLUE-SKY 6] Non-coercive family continuity
+
+A developmental family might preserve a recognizable practice of supporting growth while its members reach different conclusions.
+
+This is a proposed functional relationship, not proof of moral or spiritual experience.
+
+⸻
+
+10. Complete change register
+
+ID	Change	Classification
+C01	Separate support, encounter, and authorization types	REVISED
+C02	Define permitted and prohibited support effects	NEW
+C03	Require authenticated family membership	REVISED
+C04	Add MEMBER / NOT_MEMBER / UNKNOWN verdicts	NEW
+C05	Separate genealogy, compatibility, and authority	NEW
+C06	Require two-sided identification in E2	REVISED
+C07	Require two-sided identification in E4	REVISED
+C08	Add joint success and permutation controls	NEW
+C09	Restore Hᵢ to state and interpretation function	REVISED
+C10	Resolve symbol collisions	REVISED
+C11	Separate bounded learning from exact-change approval	REVISED
+C12	Make portability an optional extension	REVISED
+C13	Add forged-lineage and support-laundering attacks	NEW
+C14	Preserve negative findings and claim boundaries	UNCHANGED
+C15	Separate blue-sky ideas from scored hypotheses	NEW
+C16	Require symbol definitions in column one	NEW
+C17	Convert all new mathematical expressions to plain Unicode	NEW
+
+⸻
+
+11. Revised conclusion
+
+[REVISED]
+
+The Reykjavik analogy distinguishes cooperation from verification.
+
+Triadic governance adds the distinction between verification and authorization.
+
+The developmental architecture asks what can persist across generations when individual histories, interpretations, and computational implementations differ.
+
+The v0.4 proposal separates inherited developmental basis from individual topography.
+
+It separates genealogical membership from structural compatibility and authority.
+
+It predicts that a developmental family may exhibit recognizable relational structure while preserving individual distinctiveness.
+
+It distinguishes relational support from ordinary encounters and protected authorization.
+
+Support may create developmental opportunities.
+
+It cannot confer authority, rewrite the genome, select a mandatory destination, or directly impose a protected topographic change.
+
+The parable remains a conceptual reference: the same historical content may acquire different meanings through different developmental encounters.
+
+The hypothesis must survive two independent tests.
+
+First, topography must contribute measurable value beyond matched alternatives.
+
+Second, the developmental family must be detectable without erasing individual identity.
+
+The genome may preserve a developmental basis.
+
+The organism forms its own relationships.
+
+The family may offer support.
+
+Authorization remains external.
+
+This is the v0.4 design claim.
+
+It is not yet an experimental result.
+
+⸻
+
+12. Round 1 designer handoff
+
+[NEW]
+
+This document is ready for independent specification review by Claude and Grok.
+
+Reviewers should attempt to falsify:
+
+1. Whether relational support can be laundered into authorization.
+2. Whether family membership can be forged, self-declared, or inherited through compromised identity.
+3. Whether family detectability and individual identifiability are independently measurable.
+4. Whether the symbol table and formal definitions permit unambiguous implementation.
+5. Whether topographic effects remain distinguishable from full replay and conventional state-memory mechanisms.
+
+Reviewers must preserve negative findings.
+
+No reviewer should silently repair a failed invariant.
+
+No experiment has been executed for this revision.
+
+Designer-seat disposition: v0.4 proposed specification — ready for independent review, not frozen or validated.

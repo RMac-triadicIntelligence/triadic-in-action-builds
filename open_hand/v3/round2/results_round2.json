@@ -1,0 +1,172 @@
+{
+ "A0 baseline ring half plenty OPEN": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.008
+ },
+ "A1 leak 0.05 ring": {
+  "want": 0.394,
+  "unmet": 0.3,
+  "worst_member_unmet": 0.833
+ },
+ "A1 leak 0.2 ring": {
+  "want": 0.452,
+  "unmet": 0.344,
+  "worst_member_unmet": 0.835
+ },
+ "A1 leak 0.2 grid": {
+  "want": 0.263,
+  "unmet": 0.179,
+  "worst_member_unmet": 0.805
+ },
+ "A2 fists 0.1 ring": {
+  "want": 0.316,
+  "unmet": 0.241,
+  "worst_member_unmet": 0.83
+ },
+ "A2 fists 0.3 ring": {
+  "want": 0.464,
+  "unmet": 0.357,
+  "worst_member_unmet": 0.835
+ },
+ "A2 fists 0.1 grid": {
+  "want": 0.09,
+  "unmet": 0.041,
+  "worst_member_unmet": 0.505
+ },
+ "A2 fists 0.3 grid": {
+  "want": 0.345,
+  "unmet": 0.242,
+  "worst_member_unmet": 0.834
+ },
+ "A2 fists 0.1 smallworld": {
+  "want": 0.179,
+  "unmet": 0.122,
+  "worst_member_unmet": 0.822
+ },
+ "A2 fists 0.3 smallworld": {
+  "want": 0.405,
+  "unmet": 0.304,
+  "worst_member_unmet": 0.832
+ },
+ "A3 grid half plenty": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A3 smallworld half plenty": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A4 rain point ring": {
+  "want": 0.004,
+  "unmet": 0.003,
+  "worst_member_unmet": 0.07
+ },
+ "A4 rain point grid": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A4 rain patchy ring": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A4 rain patchy grid": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A4 rain moving ring": {
+  "want": 0.003,
+  "unmet": 0.002,
+  "worst_member_unmet": 0.053
+ },
+ "A4 rain moving grid": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A5 spill-before-eating, tiny hands": {
+  "want": 0.938,
+  "unmet": 0.47,
+  "worst_member_unmet": 0.852
+ },
+ "A5 eat-then-spill, tiny hands": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.006
+ },
+ "A5 spill-before-eating, normal hands": {
+  "want": 0.052,
+  "unmet": 0.009,
+  "worst_member_unmet": 0.257
+ },
+ "A7 OPEN ring rain=1.3x": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.008
+ },
+ "A7 ASKED+ ring rain=1.3x": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A7 CENTRAL ring rain=1.3x": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A7 OPEN grid rain=1.3x": {
+  "want": 0.0,
+  "unmet": 0.0,
+  "worst_member_unmet": 0.0
+ },
+ "A7 OPEN ring rain=1.0x": {
+  "want": 0.059,
+  "unmet": 0.04,
+  "worst_member_unmet": 0.693
+ },
+ "A7 ASKED+ ring rain=1.0x": {
+  "want": 0.005,
+  "unmet": 0.002,
+  "worst_member_unmet": 0.006
+ },
+ "A7 CENTRAL ring rain=1.0x": {
+  "want": 0.01,
+  "unmet": 0.001,
+  "worst_member_unmet": 0.001
+ },
+ "A7 OPEN grid rain=1.0x": {
+  "want": 0.007,
+  "unmet": 0.002,
+  "worst_member_unmet": 0.031
+ },
+ "A7 OPEN ring rain=0.8x": {
+  "want": 0.246,
+  "unmet": 0.2,
+  "worst_member_unmet": 0.894
+ },
+ "A7 ASKED+ ring rain=0.8x": {
+  "want": 0.345,
+  "unmet": 0.188,
+  "worst_member_unmet": 0.372
+ },
+ "A7 CENTRAL ring rain=0.8x": {
+  "want": 0.918,
+  "unmet": 0.201,
+  "worst_member_unmet": 0.201
+ },
+ "A7 OPEN grid rain=0.8x": {
+  "want": 0.266,
+  "unmet": 0.186,
+  "worst_member_unmet": 0.86
+ },
+ "A6 ring of 600": {
+  "first_day_middle_of_dry_half_is_fed": 531,
+  "want_last_5000_days": 0.104,
+  "want_first_5000_days": 0.36
+ }
+}

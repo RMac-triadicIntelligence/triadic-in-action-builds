@@ -1,0 +1,143 @@
+results.json sha256 e6deb22bc073d8ecc356c22d8eb772000de75d30ad0ce18bde017a2197164871
+{
+ "OPEN rain=1.3x": {
+  "want_all": 0.0,
+  "want_wet_half": 0.0,
+  "want_dry_half": 0.0,
+  "worst_member": 0.0,
+  "members_never_in_want": 60.0
+ },
+ "ASKED rain=1.3x": {
+  "want_all": 0.4182,
+  "want_wet_half": 0.0001,
+  "want_dry_half": 0.8364,
+  "worst_member": 0.997,
+  "members_never_in_want": 29.4
+ },
+ "BARNS rain=1.3x": {
+  "want_all": 0.4847,
+  "want_wet_half": 0.0,
+  "want_dry_half": 0.9693,
+  "worst_member": 0.9981,
+  "members_never_in_want": 30.0
+ },
+ "OPEN rain=1.0x": {
+  "want_all": 0.0519,
+  "want_wet_half": 0.0,
+  "want_dry_half": 0.104,
+  "worst_member": 0.9019,
+  "members_never_in_want": 50.0
+ },
+ "ASKED rain=1.0x": {
+  "want_all": 0.4473,
+  "want_wet_half": 0.0004,
+  "want_dry_half": 0.8942,
+  "worst_member": 0.9997,
+  "members_never_in_want": 29.0
+ },
+ "BARNS rain=1.0x": {
+  "want_all": 0.4943,
+  "want_wet_half": 0.0,
+  "want_dry_half": 0.9885,
+  "worst_member": 0.9998,
+  "members_never_in_want": 30.0
+ },
+ "OPEN rain=0.8x": {
+  "want_all": 0.2533,
+  "want_wet_half": 0.0,
+  "want_dry_half": 0.5065,
+  "worst_member": 1.0,
+  "members_never_in_want": 42.0
+ },
+ "ASKED rain=0.8x": {
+  "want_all": 0.4654,
+  "want_wet_half": 0.0021,
+  "want_dry_half": 0.9287,
+  "worst_member": 1.0,
+  "members_never_in_want": 26.0
+ },
+ "BARNS rain=0.8x": {
+  "want_all": 0.4986,
+  "want_wet_half": 0.0015,
+  "want_dry_half": 0.9957,
+  "worst_member": 1.0,
+  "members_never_in_want": 28.2
+ },
+ "OPEN scarcity: want in dry half by hops from the rain": {
+  "0": 0.0,
+  "3": 0.0,
+  "6": 0.144,
+  "9": 0.989,
+  "12": 0.994
+ },
+ "OPEN scarcity: want in wet half": 0.0,
+ "drought OPEN": {
+  "steps_until_half_in_want": [
+   941,
+   965,
+   974,
+   947,
+   930
+  ],
+  "steps_until_all_in_want": [
+   957,
+   982,
+   993,
+   960,
+   943
+  ],
+  "share_in_want_100_steps_in": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "drought ASKED": {
+  "steps_until_half_in_want": [
+   295,
+   605,
+   958,
+   425,
+   44
+  ],
+  "steps_until_all_in_want": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "share_in_want_100_steps_in": [
+   0.35,
+   0.3,
+   0.35,
+   0.367,
+   0.35
+  ]
+ },
+ "drought BARNS": {
+  "steps_until_half_in_want": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "steps_until_all_in_want": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "share_in_want_100_steps_in": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ]
+ }
+}

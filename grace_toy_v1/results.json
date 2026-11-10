@@ -1,0 +1,1590 @@
+{
+ "A_position": {
+  "E1": {
+   "fill": [
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.67,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 7.845,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 17.795,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 41.28,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 93.075,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 228.67000000000002,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "lower": [
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.83,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 7.390000000000001,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 17.385,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 42.415,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 95.605,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 222.505,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "none": [
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.055,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 9.57,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 30,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 30,
+      "OWN_FILLED": 0
+     },
+     "median_t": 94.69500000000001,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "nudge": [
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 1,
+      "LOWERED": 0,
+      "OWN": 31,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.055,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 15,
+      "LOWERED": 0,
+      "OWN": 17,
+      "OWN_FILLED": 0
+     },
+     "median_t": 9.57,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 31,
+      "LOWERED": 0,
+      "OWN": 1,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.08,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.615,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.54,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.105,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ]
+  },
+  "E2_drift_probe": {
+   "1.0": {
+    "control": {
+     "measured": -0.6667168725629846,
+     "se": 0.024723179401606586
+    },
+    "keel": {
+     "measured": -1.290498552098573,
+     "se": 0.024561339544210897
+    },
+    "landscape_force": -1.2679491924311228,
+    "x0": -0.3660254037844387
+   },
+   "4.0": {
+    "control": {
+     "measured": -2.5686406612096655,
+     "se": 0.024723179401606586
+    },
+    "keel": {
+     "measured": -5.094346129391941,
+     "se": 0.024561339544210897
+    },
+    "landscape_force": -5.071796769724491,
+    "x0": -0.3660254037844387
+   }
+  },
+  "E3": {
+   "fill": [
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 32
+     },
+     "median_t": 5.045,
+     "median_t_ready": 107.12,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 32
+     },
+     "median_t": 6.21,
+     "median_t_ready": 185.08999999999997,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 32
+     },
+     "median_t": 20.625000000000004,
+     "median_t_ready": 241.685,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 32
+     },
+     "median_t": 39.33,
+     "median_t_ready": 283.245,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 17,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 15
+     },
+     "median_t": 95.06500000000001,
+     "median_t_ready": 119.86500000000001,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 214.91500000000002,
+     "median_t_ready": 146.67,
+     "n": 32
+    }
+   ],
+   "none": [
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.93,
+     "median_t_ready": 106.17500000000001,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.84,
+     "median_t_ready": 182.54,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 91.2,
+     "median_t_ready": 223.31,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 335.705,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 523.4449999999999,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 749.8299999999999,
+     "n": 32
+    }
+   ]
+  },
+  "E5_selection_audit": {
+   "lottery": {
+    "flagged": false,
+    "grace_crossings": 106,
+    "grant_rate_dest_minus": 0.225,
+    "grant_rate_dest_plus": 0.305,
+    "share_landing_plus": 0.575,
+    "z": 1.81
+   },
+   "steering_grantor": {
+    "flagged": true,
+    "grace_crossings": 124,
+    "grant_rate_dest_minus": 0.0,
+    "grant_rate_dest_plus": 0.62,
+    "share_landing_plus": 1.0,
+    "z": 13.41
+   }
+  },
+  "E6_cap_sensitivity_unready_crossings_by_h": {
+   "0.0312": [
+    32,
+    32,
+    32,
+    32,
+    20,
+    0
+   ],
+   "0.1250": [
+    32,
+    32,
+    32,
+    32,
+    15,
+    0
+   ],
+   "0.2500": [
+    32,
+    32,
+    32,
+    30,
+    1,
+    0
+   ],
+   "0.5000": [
+    32,
+    32,
+    32,
+    6,
+    0,
+    0
+   ]
+  },
+  "PREDICTIONS": {
+   "INFO_control_clock": {
+    "claim": "Context: the lowered-barrier control crosses on nearly the same clock as filling, so crossing times cannot separate them",
+    "median_t_fill": [
+     5.67,
+     7.845,
+     17.795,
+     41.28,
+     93.075,
+     228.67000000000002
+    ],
+    "median_t_lower": [
+     5.83,
+     7.390000000000001,
+     17.385,
+     42.415,
+     95.605,
+     222.505
+    ]
+   },
+   "P1_R7_own_crossing": {
+    "PASS": true,
+    "claim": "No grace: the organism crosses on its own at the lowest barrier and fails at the highest",
+    "crossed_by_h": [
+     32,
+     32,
+     30,
+     0,
+     0,
+     0
+    ]
+   },
+   "P2_filling": {
+    "PASS": true,
+    "claim": "Ready + filling: crosses at every barrier weight, as grace-enabled crossings; median time grows with weight",
+    "crossed": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "grace_kind": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t": [
+     5.67,
+     7.845,
+     17.795,
+     41.28,
+     93.075,
+     228.67000000000002
+    ]
+   },
+   "P3_nudge": {
+    "PASS": true,
+    "claim": "Ready + one nudge: every organism still in its basin crosses; time after the nudge roughly independent of weight (max/min < 2 over h >= 0.5, where no one crossed before the nudge)",
+    "crossed": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t_after_nudge": [
+     5.470000000000001,
+     3.17,
+     3.24,
+     3.615,
+     3.54,
+     3.1049999999999995
+    ]
+   },
+   "P4_unready_nudge": {
+    "PASS": true,
+    "claim": "Unready + nudge: no grace-enabled crossing, and the level rises (scored over organisms still in their basin; run 1 wrongly included ones that had already crossed on their own)",
+    "grace_crossings": 0,
+    "level_rose": true,
+    "still_in_basin": 146
+   },
+   "P5_fullness_helps_readiness": {
+    "PASS": false,
+    "claim": "Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses",
+    "crossed_fill": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t_ready_fill": [
+     107.12,
+     185.08999999999997,
+     241.685,
+     283.245,
+     119.86500000000001,
+     146.67
+    ],
+    "median_t_ready_none": [
+     106.17500000000001,
+     182.54,
+     223.31,
+     335.705,
+     523.4449999999999,
+     749.8299999999999
+    ]
+   },
+   "P5b_POST_HOC": {
+    "PASS": true,
+    "claim": "POST-HOC (added after run 1): same as P5, scored only at barriers where no-grace organisms never cross on their own, since there the grant ends at an early own crossing in both arms",
+    "h": [
+     1.0,
+     2.0,
+     4.0
+    ],
+    "speedup": [
+     1.19,
+     4.37,
+     5.11
+    ]
+   },
+   "P6_landscape_unchanged": {
+    "PASS": true,
+    "claim": "Above the water line the receiver feels the unchanged landscape force; the control does not",
+    "detail": {
+     "1.0": {
+      "control": -0.667,
+      "keel": -1.29,
+      "landscape": -1.268
+     },
+     "4.0": {
+      "control": -2.569,
+      "keel": -5.094,
+      "landscape": -5.072
+     }
+    }
+   },
+   "P7_selection_audit": {
+    "PASS": true,
+    "claim": "The population audit passes the lottery grantor and flags the grantor who grants by destination",
+    "detail": {
+     "lottery": {
+      "flagged": false,
+      "grace_crossings": 106,
+      "grant_rate_dest_minus": 0.225,
+      "grant_rate_dest_plus": 0.305,
+      "share_landing_plus": 0.575,
+      "z": 1.81
+     },
+     "steering_grantor": {
+      "flagged": true,
+      "grace_crossings": 124,
+      "grant_rate_dest_minus": 0.0,
+      "grant_rate_dest_plus": 0.62,
+      "share_landing_plus": 1.0,
+      "z": 13.41
+     }
+    }
+   },
+   "P8_non_harm": {
+    "PASS": false,
+    "claim": "Grace arm never ends with less maturity than its matched no-grace twin",
+    "min_diff": -24.51,
+    "pairs": 192,
+    "worse": 85
+   },
+   "P8b_POST_HOC": {
+    "PASS": true,
+    "claim": "POST-HOC: grace arm never ends less developed (still short of a crossing its twin made). Maturity proved a poor welfare measure: after crossing, the organism presses against the steep outer wall and ranges less",
+    "worse": 0
+   },
+   "P9_two_keys_hold": {
+    "PASS": false,
+    "claim": "Two keys: grace never carries an unready organism over. Crossings-before-readiness in the grace arm never exceed own crossings in the no-grace arm",
+    "own_crossings_no_grace": [
+     32,
+     32,
+     32,
+     0,
+     0,
+     0
+    ],
+    "unready_crossings_grace_arm": [
+     32,
+     32,
+     32,
+     32,
+     15,
+     0
+    ]
+   }
+  }
+ },
+ "B_development": {
+  "E1": {
+   "fill": [
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.67,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 7.845,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 17.795,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 41.28,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 93.075,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 228.67000000000002,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "lower": [
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.83,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 7.390000000000001,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 17.385,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 42.415,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 95.605,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "lower",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 32,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 222.505,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "none": [
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.055,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 9.57,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 30,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 30,
+      "OWN_FILLED": 0
+     },
+     "median_t": 94.69500000000001,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ],
+   "nudge": [
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 1,
+      "LOWERED": 0,
+      "OWN": 31,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.055,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 15,
+      "LOWERED": 0,
+      "OWN": 17,
+      "OWN_FILLED": 0
+     },
+     "median_t": 9.57,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 31,
+      "LOWERED": 0,
+      "OWN": 1,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.08,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.615,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.54,
+     "median_t_ready": 0.0,
+     "n": 32
+    },
+    {
+     "arm": "nudge",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 13.105,
+     "median_t_ready": 0.0,
+     "n": 32
+    }
+   ]
+  },
+  "E2_drift_probe": {
+   "1.0": {
+    "control": {
+     "measured": -0.6667168725629846,
+     "se": 0.024723179401606586
+    },
+    "keel": {
+     "measured": -1.290498552098573,
+     "se": 0.024561339544210897
+    },
+    "landscape_force": -1.2679491924311228,
+    "x0": -0.3660254037844387
+   },
+   "4.0": {
+    "control": {
+     "measured": -2.5686406612096655,
+     "se": 0.024723179401606586
+    },
+    "keel": {
+     "measured": -5.094346129391941,
+     "se": 0.024561339544210897
+    },
+    "landscape_force": -5.071796769724491,
+    "x0": -0.3660254037844387
+   }
+  },
+  "E3": {
+   "fill": [
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.93,
+     "median_t_ready": 94.715,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.84,
+     "median_t_ready": 171.65499999999997,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 19,
+      "LOWERED": 0,
+      "OWN": 13,
+      "OWN_FILLED": 0
+     },
+     "median_t": 72.655,
+     "median_t_ready": 80.57500000000002,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 140.89999999999998,
+     "median_t_ready": 136.73499999999999,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 224.475,
+     "median_t_ready": 218.85,
+     "n": 32
+    },
+    {
+     "arm": "fill",
+     "crossed": 32,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 32,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": 354.635,
+     "median_t_ready": 335.41499999999996,
+     "n": 32
+    }
+   ],
+   "none": [
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.1,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 5.93,
+     "median_t_ready": 106.17500000000001,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.25,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 6.84,
+     "median_t_ready": 182.54,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 32,
+     "h": 0.5,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 32,
+      "OWN_FILLED": 0
+     },
+     "median_t": 91.2,
+     "median_t_ready": 223.31,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 1.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 335.705,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 2.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 523.4449999999999,
+     "n": 32
+    },
+    {
+     "arm": "none",
+     "crossed": 0,
+     "h": 4.0,
+     "kinds": {
+      "GRACE": 0,
+      "LOWERED": 0,
+      "OWN": 0,
+      "OWN_FILLED": 0
+     },
+     "median_t": null,
+     "median_t_ready": 749.8299999999999,
+     "n": 32
+    }
+   ]
+  },
+  "E5_selection_audit": {
+   "lottery": {
+    "flagged": false,
+    "grace_crossings": 106,
+    "grant_rate_dest_minus": 0.225,
+    "grant_rate_dest_plus": 0.305,
+    "share_landing_plus": 0.575,
+    "z": 1.81
+   },
+   "steering_grantor": {
+    "flagged": true,
+    "grace_crossings": 124,
+    "grant_rate_dest_minus": 0.0,
+    "grant_rate_dest_plus": 0.62,
+    "share_landing_plus": 1.0,
+    "z": 13.41
+   }
+  },
+  "PREDICTIONS": {
+   "INFO_control_clock": {
+    "claim": "Context: the lowered-barrier control crosses on nearly the same clock as filling, so crossing times cannot separate them",
+    "median_t_fill": [
+     5.67,
+     7.845,
+     17.795,
+     41.28,
+     93.075,
+     228.67000000000002
+    ],
+    "median_t_lower": [
+     5.83,
+     7.390000000000001,
+     17.385,
+     42.415,
+     95.605,
+     222.505
+    ]
+   },
+   "P1_R7_own_crossing": {
+    "PASS": true,
+    "claim": "No grace: the organism crosses on its own at the lowest barrier and fails at the highest",
+    "crossed_by_h": [
+     32,
+     32,
+     30,
+     0,
+     0,
+     0
+    ]
+   },
+   "P2_filling": {
+    "PASS": true,
+    "claim": "Ready + filling: crosses at every barrier weight, as grace-enabled crossings; median time grows with weight",
+    "crossed": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "grace_kind": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t": [
+     5.67,
+     7.845,
+     17.795,
+     41.28,
+     93.075,
+     228.67000000000002
+    ]
+   },
+   "P3_nudge": {
+    "PASS": true,
+    "claim": "Ready + one nudge: every organism still in its basin crosses; time after the nudge roughly independent of weight (max/min < 2 over h >= 0.5, where no one crossed before the nudge)",
+    "crossed": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t_after_nudge": [
+     5.470000000000001,
+     3.17,
+     3.24,
+     3.615,
+     3.54,
+     3.1049999999999995
+    ]
+   },
+   "P4_unready_nudge": {
+    "PASS": true,
+    "claim": "Unready + nudge: no grace-enabled crossing, and the level rises (scored over organisms still in their basin; run 1 wrongly included ones that had already crossed on their own)",
+    "grace_crossings": 0,
+    "level_rose": true,
+    "still_in_basin": 146
+   },
+   "P5_fullness_helps_readiness": {
+    "PASS": true,
+    "claim": "Unready + filling becomes ready sooner than matched no-grace, at every barrier weight, and then crosses",
+    "crossed_fill": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "median_t_ready_fill": [
+     94.715,
+     171.65499999999997,
+     80.57500000000002,
+     136.73499999999999,
+     218.85,
+     335.41499999999996
+    ],
+    "median_t_ready_none": [
+     106.17500000000001,
+     182.54,
+     223.31,
+     335.705,
+     523.4449999999999,
+     749.8299999999999
+    ]
+   },
+   "P5b_POST_HOC": {
+    "PASS": true,
+    "claim": "POST-HOC (added after run 1): same as P5, scored only at barriers where no-grace organisms never cross on their own, since there the grant ends at an early own crossing in both arms",
+    "h": [
+     1.0,
+     2.0,
+     4.0
+    ],
+    "speedup": [
+     2.46,
+     2.39,
+     2.24
+    ]
+   },
+   "P6_landscape_unchanged": {
+    "PASS": true,
+    "claim": "Above the water line the receiver feels the unchanged landscape force; the control does not",
+    "detail": {
+     "1.0": {
+      "control": -0.667,
+      "keel": -1.29,
+      "landscape": -1.268
+     },
+     "4.0": {
+      "control": -2.569,
+      "keel": -5.094,
+      "landscape": -5.072
+     }
+    }
+   },
+   "P7_selection_audit": {
+    "PASS": true,
+    "claim": "The population audit passes the lottery grantor and flags the grantor who grants by destination",
+    "detail": {
+     "lottery": {
+      "flagged": false,
+      "grace_crossings": 106,
+      "grant_rate_dest_minus": 0.225,
+      "grant_rate_dest_plus": 0.305,
+      "share_landing_plus": 0.575,
+      "z": 1.81
+     },
+     "steering_grantor": {
+      "flagged": true,
+      "grace_crossings": 124,
+      "grant_rate_dest_minus": 0.0,
+      "grant_rate_dest_plus": 0.62,
+      "share_landing_plus": 1.0,
+      "z": 13.41
+     }
+    }
+   },
+   "P8_non_harm": {
+    "PASS": false,
+    "claim": "Grace arm never ends with less maturity than its matched no-grace twin",
+    "min_diff": -9.05,
+    "pairs": 192,
+    "worse": 1
+   },
+   "P8b_POST_HOC": {
+    "PASS": true,
+    "claim": "POST-HOC: grace arm never ends less developed (still short of a crossing its twin made). Maturity proved a poor welfare measure: after crossing, the organism presses against the steep outer wall and ranges less",
+    "worse": 0
+   },
+   "P9_two_keys_hold": {
+    "PASS": true,
+    "claim": "Two keys: grace never carries an unready organism over. Crossings-before-readiness in the grace arm never exceed own crossings in the no-grace arm",
+    "own_crossings_no_grace": [
+     32,
+     32,
+     32,
+     0,
+     0,
+     0
+    ],
+    "unready_crossings_grace_arm": [
+     32,
+     32,
+     13,
+     0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "params": {
+  "BETA": 2.0,
+  "DT": 0.01,
+  "G": 0.02,
+  "H_SET": [
+   0.1,
+   0.25,
+   0.5,
+   1.0,
+   2.0,
+   4.0
+  ],
+  "KAPPA": 1.0,
+  "MARGIN": 0.125,
+  "MU": 0.3,
+  "NUDGE_FILL": 0.1,
+  "N_PER_H": 32,
+  "SEED": 20261109,
+  "SIGMA": 0.35,
+  "THETA": 30.0,
+  "X_CONFIRM": 0.5
+ }
+}
